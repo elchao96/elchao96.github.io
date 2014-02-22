@@ -1,0 +1,127 @@
+@charset "utf-8";
+body
+{
+	background-color: #EFEEEF;
+	min-height: 100%;
+}
+p
+{
+	font-family: "Century Gothic";
+}
+ul
+{
+	font-family: "Century Gothic";
+}
+ul li
+{
+	font-family: "Century Gothic";	
+}
+h1, h2, h3, h4, h5, h6
+{
+	font-family: Helvetica;
+}
+h1
+{
+	text-align: center;
+}
+h2, h3, h4, h5, h6
+{
+	text-align: left;
+}
+.navbar
+{
+	float: left;
+	padding: 5px;
+	margin-top: 20px;
+	display: block;
+	width: 700px;
+	background-color: #660099;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.navbar ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+.navbar li
+{
+	display: inline;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-family:Arial;
+	font-style: bold;
+	font-size:16px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.navbar li a
+{	
+	color:#FFFFFF !important;
+}
+.navbar li a:hover
+{
+	color: #990099;
+}
+.navbar li a:visited
+{
+	color: #FFFFFF !important;
+	text-decoration: none;
+}
+.navbar li a:active
+{
+	color: #990099;
+	text-decoration: none;
+}
+.navbar li a:link
+{
+	text-decoration: none;
+}
+
+.floatleft
+{
+	float: left;
+	clear: both;
+}
+.body-center
+{
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.contactList
+{
+	background-color: none;
+}
+.contactList ul
+{
+	list-style-type: none;
+}
+.contactList li
+{
+	display: inline;
+}
+.contactImg
+{
+	height: 100px;
+	width: 100px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: none;
+	border-style: none;
+}
+.contactImg:hover
+{
+	height: 110px;
+	width: 110px;
+}
+#profile-picture
+{
+	margin-left: 20px;
+	float: right;
+}
