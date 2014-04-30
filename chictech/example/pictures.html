@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
+		<script>
+			function displayNothing()
+			{
+				var commentArea = document.getElementById("comment");
+				if (commentArea.innerHTML == "")
+				{
+					commentArea.innerHTML = "<p>No comments.</p>";
+				}
+			}
+			function getComment()
+			{
+				var commentArea = document.getElementById("comment");
+				var comment = prompt("Add a comment!");
+				commentArea.innerHTML = commentArea.innerHTML + "<p>" + comment + "</p>";
+			}
+		</script>
+	</head>
+	<body class="body-center">
+		<!-- start navigation bar -->
+		<div class="navbar">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="pictures.html">Pictures</a></li>
+				<li><a href="places.html">Places</a></li>
+				<li><a href="favorites.html">Favorites</a></li>
+		</div>
+		<!-- end navigation bar -->
+		<table class="pictures">
+			<tr>
+				<td><img src="pic1.png"/></td>
+				<td><img src="pic2.jpg"/></td>
+				<td><img src="pic3.jpg"/></td>
+				<td><img src="pic4.jpg"/></td>
+			</tr>
+		</table>
+		<div id="comment" onload="displayNothing()"></div>
+		<button type="button" onclick="getComment()">Leave a Comment</button>
+	</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
+		<script>
+			function displayCool() 
+			{
+				var tableRows = document.getElementsByTagName('tr').length;
+				if (tableRows === 1) 
+				{
+					document.getElementById('cool').innerHTML = '<h3>My table has ' + tableRows + ' row in it</h3>';
+				}
+				else 
+				{
+					document.getElementById('cool').innerHTML = '<h3>My table has ' + tableRows + ' rows in it</h3>';
+				}
+				var tableCells = document.getElementsByTagName('td');
+				var sentences = document.getElementById('sentences');
+				for (i = 0; i < tableCells.length; i++) 
+				{
+					sentences.innerHTML = sentences.innerHTML + '<p>Come to Illinois!</p>';
+				}
+			}
+		</script>
+	</head>
+	<body class="body-center">
+		<!-- start navigation bar -->
+		<div class="navbar">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="pictures.html">Pictures</a></li>
+				<li><a href="places.html">Places</a></li>
+				<li><a href="favorites.html">Favorites</a></li>
+		</div>
+		<!-- end navigation bar -->
+		<br/>
+		<table class="favorites">
+			<tr>
+				<td><strong>Favorite Books</strong></td>
+				<td><img src="book1.jpeg" alt="Girl with Dragon Tattoo"/></td>
+				<td><img src="book2.jpg" alt="And Then There Were None"/></td>
+				<td><img src="book3.jpg" alt="Divergent"/></td>
+			</tr>
+			<tr>
+				<td><strong>Obsession</strong></td>
+				<td><img src="db1.jpg" alt="Da Vinci Code"/></td>
+				<td><img src="db2.jpg" alt="Digital Fortress"/></td>
+				<td><img src="db3.jpg" alt="The Lost Symbol"/></td>
+			</tr>
+			<tr>
+				<td><strong>Favorite Movies</strong></td>
+				<td><img src="movie1.jpg" alt="Saving Mr. Banks"/></td>
+				<td><img src="movie2.jpg" alt="King's Speech"/></td>
+				<td><img src="movie3.jpg" alt="Frozen"/></td>
+			</tr>
+		</table>
+
+		<button type="button" onclick="displayCool()">Click Me!</button>
+		<div id="cool"></div>
+		<div id="sentences"></div>
+	</body>
+</html>

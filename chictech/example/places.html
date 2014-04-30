@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
+		<script>
+			function displayCaption()
+			{
+				document.getElementById('caption').innerHTML = "The Alma Mater is back on campus after being in restoration for a year!";
+			}
+			function stopDisplay()
+			{
+				document.getElementById('caption').innerHTML = "";
+			}
+		</script>
+	</head>
+	<body class="body-center">
+		<!-- start navigation bar -->
+		<div class="navbar">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="pictures.html">Pictures</a></li>
+				<li><a href="places.html">Places</a></li>
+				<li><a href="favorites.html">Favorites</a></li>
+		</div>
+		<!-- end navigation bar -->
+		<h1>The University of Illinois, Urbana-Champaign</h1>
+		<p>I'm currently a student here, studying Computer Science. It's a big change from my hometown, but so far I like it. :)</p>
+		<img src="almamater.jpg" width="400px" height="auto" alt="Alma Mater" onmouseover="displayCaption()" onmouseout="stopDisplay()"/>
+		<p id="caption"></p>
+		<p>Mouse over for a special message!</p>
+	</body>
+</html>

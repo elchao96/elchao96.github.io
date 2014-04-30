@@ -1,0 +1,145 @@
+@charset "utf-8";
+html
+{
+	overflow-y: scroll;
+	height: 100%;
+}
+body
+{
+	background-color: #EFEEEF;
+	min-height: 100%;
+	width: 960px;
+}
+.body-center
+{
+	max-width: 960px;
+	margin: 0 auto;
+}
+p
+{
+	font-family: "Century Gothic";
+}
+ul
+{
+	font-family: "Century Gothic";
+}
+ul li
+{
+	font-family: "Century Gothic";	
+}
+h1, h2, h3, h4, h5, h6
+{
+	font-family: Helvetica;
+}
+h1
+{
+	text-align: center;
+}
+h2, h3, h4, h5, h6
+{
+	text-align: left;
+}
+table tr td
+{
+	font-family: "Century Gothic";
+}
+.navbar
+{
+	float: left;
+	padding: 5px;
+	margin-top: 20px;
+	display: block;
+	width: 960px;
+	background-color: #660099;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	margin-bottom: 20px;
+}
+.navbar ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+.navbar li
+{
+	display: inline;
+	padding-left: 60px;
+	padding-right: 60px;
+	font-family:Arial;
+	font-style: bold;
+	font-size:16px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.navbar li a
+{	
+	color:#FFFFFF !important;
+}
+.navbar li a:hover
+{
+	color: #990099;
+}
+.navbar li a:visited
+{
+	color: #FFFFFF !important;
+	text-decoration: none;
+}
+.navbar li a:active
+{
+	color: #990099;
+	text-decoration: none;
+}
+.navbar li a:link
+{
+	text-decoration: none;
+}
+#profilePicture
+{
+	margin-left: 20px;
+	float: right;
+}
+.pictures tr td img
+{
+	width: 200px;
+	height: auto;
+	border-radius: 100px;
+	box-shadow: 5px;
+	border-style: dashed;
+	margin: 5px;
+	padding: 0px;
+}
+table
+{
+	width: 100%;
+}
+tr
+{
+	height: 400px;
+}
+td
+{
+	width: 20%;
+}
+.favorites
+{
+	width: 100%;
+}
+.favorites tr td img
+{
+	width: 95%;
+	height: auto;
+}
+button
+{
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	color: white;
+	background-color: #660099;
+	font-family: "Century Gothic";
+}
