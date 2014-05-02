@@ -2,9 +2,14 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="styles.css"/>
-		<script src="jquery.js"/>
+		<script src="jquery-1.11.0.min.js"></script>
+		<script>
+			function displayMessage(){
+				alert("Welcome to my personal website! I had so much fun making it!");
+			}
+		</script>
 	</head>
-	<body class="body-center">
+	<body class="body-center" onload="displayMessage()">
 		<!-- start navigation bar -->
 		<div class="navbar">
 			<ul>
@@ -16,12 +21,9 @@
 		</div>
 		<!-- end navigation bar -->
 		<br/>
-		<h1>My Status</h1>
-		<img id="profilePicture" src="profilepic.jpg" alt="profilePic" width="300px" height="auto"/>
-		<p><i>Saturday, May 3, 2014</i></p>
-		<p>I am currently teaching a workshop at ChicTech. Everybody should come to ChicTech! It's <strong>fun</strong>, <i>informative</i>, and most of all, <strong><i>AMAZING</i></strong>!</p>
-		<br/>
-		<p><i>Friday, April 25, 2014</i></p>
-		<p>Finished the ChicTech website framework! <strong><i>YESSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</strong></i></p>
+		<h1>Who I Am</h1>
+		<p>My name is _______ and I am in the _______ grade. I go to _____________ School.</p>
+		<p>This is my <strong><i>personal website</i></strong> and I want to show you all of my favorites. </p>
+		<p>I made this website while attending ChicTech at the <a href="http://www.illinois.edu">University of Illinois at Urbana-Champaign.</a> </p>
 	</body>
 </html>

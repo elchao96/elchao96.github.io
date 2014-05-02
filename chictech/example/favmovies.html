@@ -2,26 +2,13 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="styles.css"/>
-		<script src="jquery.js"/>
+		<script src="jquery-1.11.0.min.js" type="text/javascript"></script>
 		<script>
-			function displayCool() 
-			{
-				var tableRows = document.getElementsByTagName('tr').length;
-				if (tableRows === 1) 
-				{
-					document.getElementById('cool').innerHTML = '<h3>My table has ' + tableRows + ' row in it</h3>';
-				}
-				else 
-				{
-					document.getElementById('cool').innerHTML = '<h3>My table has ' + tableRows + ' rows in it</h3>';
-				}
-				var tableCells = document.getElementsByTagName('td');
-				var sentences = document.getElementById('sentences');
-				for (i = 0; i < tableCells.length; i++) 
-				{
-					sentences.innerHTML = sentences.innerHTML + '<p>Come to Illinois!</p>';
-				}
-			}
+			$(document).ready(function(){
+				$("button").click(function(){
+					$("#frozenposter").animate({left: "300px"});
+				});
+			});
 		</script>
 	</head>
 	<body class="body-center">
@@ -38,27 +25,14 @@
 		<br/>
 		<table class="favorites">
 			<tr>
-				<td><strong>Favorite Books</strong></td>
-				<td><img src="book1.jpeg" alt="Girl with Dragon Tattoo"/></td>
-				<td><img src="book2.jpg" alt="And Then There Were None"/></td>
-				<td><img src="book3.jpg" alt="Divergent"/></td>
-			</tr>
-			<tr>
-				<td><strong>Obsession</strong></td>
-				<td><img src="db1.jpg" alt="Da Vinci Code"/></td>
-				<td><img src="db2.jpg" alt="Digital Fortress"/></td>
-				<td><img src="db3.jpg" alt="The Lost Symbol"/></td>
-			</tr>
-			<tr>
 				<td><strong>Favorite Movies</strong></td>
 				<td><img src="movie1.jpg" alt="Saving Mr. Banks"/></td>
 				<td><img src="movie2.jpg" alt="King's Speech"/></td>
 				<td><img src="movie3.jpg" alt="Frozen"/></td>
 			</tr>
 		</table>
-
-		<button type="button" onclick="displayCool()">Click Me!</button>
-		<div id="cool"></div>
-		<div id="sentences"></div>
+		<p>My current favorite movie is Frozen. I am a huge Disney Fan. </p>
+		<button type="button">Move Image</button><br/><br/>
+		<img src="movie3.jpg" alt="Frozen" width="300px" height="auto" id="frozenposter" style="position: absolute"/>
 	</body>
 </html>
