@@ -13,6 +13,13 @@
 				document.getElementById('caption').innerHTML = "";
 			}
 		</script>
+		<script>
+			$(document).ready(function(){
+				$("button").click(function(){
+					$("#favoritePlace").fadeToggle();
+				});
+			});
+		</script>
 	</head>
 	<body class="body-center">
 		<!-- start navigation bar -->
@@ -30,5 +37,10 @@
 		<img src="almamater.jpg" width="400px" height="auto" alt="Alma Mater" onmouseover="displayCaption()" onmouseout="stopDisplay()"/>
 		<p id="caption"></p>
 		<p>Mouse over for a special message!</p>
+		<button type="button">My Dream Destination</button><br/><br/>
+		<div style="display: none" id="favoritePlace">
+			<img src="favplace.jpg" width="400px" height="auto" alt="Favorite Place"/>
+			<p>Shanghai, China</p>
+		</div>
 	</body>
 </html>
