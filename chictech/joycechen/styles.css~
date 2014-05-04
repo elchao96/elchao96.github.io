@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+@font-face { font-family: "fineliner"; src: url('http://static.tumblr.com/q54tzar/JcYm21fwu/fineliner_script_1_.otf'); }
+
+body {cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur817.cur), progress !important;}
+
+a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur817.cur), progress !important;
+}
+
+body {
+font-family: calibri;
+font-size:12px;
+margin:0;
+background-attachment:fixed;
+background-repeat:repeat;
+background:url('http://assets.tumblr.com/images/x.gif');
+background-color:#fAfafa;
+color:#a8a8a8;
+}
+
+a {
+color:#2E2E2E;    
+text-decoration:none;
+}h1 {
+font-size:24px;
+text-transform:none;
+font-family:fineliner;
+}
+.navbar {
+	float:center;
+	padding:5px;
+	display:block;
+	width:250px;
+	background-color:#fff;
+	background-image:url('http://31.media.tumblr.com/68c5caa804e0f822cff155f1fe5d58ee/tumblr_mq4q4wSe2i1s2mp2to9_400.gif');
+	border:1px solid #000;
+	margin:auto;
+}
+
+.navbar ul{
+	list-style-type:none;
+	margin: 0px 5px 0px 5px;
+	padding: 5px 5px 5px 5px;
+	overflow:hidden;
+}
+
+.navbar li{
+	display:inline;
+	padding:0px 5px 0px 5px;
+	font-family:calibri;
+	font-size:9px;
+	text-transform:uppercase;
+}

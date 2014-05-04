@@ -1,0 +1,39 @@
+<!DOCTYPE html lang="en">
+<html>
+	<head>
+		<!--Here is where you will find the links to stylesheets (something we’ll cover later) and scripts (something we’ll get to, if time permits).-->
+<center><title>Favoritism</title></center>
+<link rel="stylesheet" type="text/css" href="styles.css"/>
+	</head>
+	<body>
+<div class="navbar">
+<ul>
+<li><a href="index.html">Index</a></li>
+<li><a href="favbooks.html">Books</a></li>
+<li><a href="favfood.html">Food</a></li>
+<li><a href="favmovies.html">Movies</a></li>
+<li><a href="favplaces.html">Colors<a></li>
+</ul>
+</div>
+		<!--Here is where you will start building your web page - links, navigation bars, lists, paragraphs, headings, etc.-->
+<center><h1>Favorite Books</h1></center>
+<center><li>Jane Eyre by Charlotte Bronte
+<li>1984 by George Orwell
+<li>Revolution by Jennifer Donnelly
+<li>Thirteen Reasons Why by Jay Asher
+<li>Along for the Ride by Sarah Dessen
+<li>Just Listen by Sarah Dessen
+<li>Books of Bayern (Series) by Shannon Hale
+<li>Between Shades of Gray by Ruta Sepetys
+</li>
+</center>
+<!---extra images--->
+<center>
+<img src="http://bookcoverarchive.com/images/books/jane_eyre.large.jpg" height="200px">
+<img src="https://m1.behance.net/rendition/modules/32013535/disp/33414287b063202a94490b81138f979c.jpg" height="200px">
+<img src="http://ecx.images-amazon.com/images/I/51pgZnUA7WL._SY344_BO1,204,203,200_.jpg" height="200px">
+</center>
+<div style="position:fixed;bottom:0px;right:0px;"><img src="http://media.tumblr.com/5ec134eee425aa2a0ae1951f5330adae/tumblr_inline_mpa8jdLPY21qz4rgp.png" height="350px"></div>
+<div style="position:fixed;top:0px;left:-20px;"><img src="http://farm5.staticflickr.com/4042/4329654561_b941d44a9d.jpg" height="300px"></div>
+</html>
+<script type="text/javascript" src="http://bpmaker.giffy.me/userdata/user/40/40596/32/parts.js"></script>

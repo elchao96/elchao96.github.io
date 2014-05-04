@@ -1,0 +1,33 @@
+<!DOCTYPE html lang="en">
+<html>
+	<head>
+		<!--Here is where you will find the links to stylesheets (something we’ll cover later) and scripts (something we’ll get to, if time permits).-->
+<center><title>Favoritism</title></center>
+<link rel="stylesheet" type="text/css" href="styles.css"/>
+	</head>
+	<body>
+<div class="navbar">
+<ul>
+<li><a href="index.html">Index</a></li>
+<li><a href="favbooks.html">Books</a></li>
+<li><a href="favfood.html">Food</a></li>
+<li><a href="favmovies.html">Movies</a></li>
+<li><a href="favplaces.html">Colors<a></li>
+</ul>
+</div>
+		<!--Here is where you will start building your web page - links, navigation bars, lists, paragraphs, headings, etc.-->
+<center><h1>Welcome</h1></center>
+<center><p>My name is Joyce Chen. This is the first website I have created.</p>
+<p>---------
+<p>About Me:
+<p>I am in eighth grade.
+<p>I love food.  
+<p>---------
+<p>Thanks for viewing~</p>
+<p>Feed my fish~</p>
+<object type="application/x-shockwave-flash" style="outline:none;" data="http://cdn.abowman.com/widgets/fish/fish.swf?up_fishColor9=F45540&up_backgroundImage=http://&up_fishColor4=DAB7FF&up_fishColor7=F45540&up_fishColor3=DAB7FF&up_fishColor5=FFE1E9&up_fishColor2=BDEDFF&up_fishColor8=F45540&up_backgroundColor=FFFFFF&up_fishColor1=BDEDFF&up_numFish=6&up_fishColor10=F45540&up_foodColor=FCB347&up_fishColor6=FFE1E9&up_fishName=Fish&" width="300" height="200"><param name="movie" value="http://cdn.abowman.com/widgets/fish/fish.swf?up_fishColor9=F45540&up_backgroundImage=http://&up_fishColor4=DAB7FF&up_fishColor7=F45540&up_fishColor3=DAB7FF&up_fishColor5=FFE1E9&up_fishColor2=BDEDFF&up_fishColor8=F45540&up_backgroundColor=FFFFFF&up_fishColor1=BDEDFF&up_numFish=6&up_fishColor10=F45540&up_foodColor=FCB347&up_fishColor6=FFE1E9&up_fishName=Fish&"></param><param name="AllowScriptAccess" value="always"></param><param name="wmode" value="opaque"></param><param name="scale" value="noscale"/><param name="salign" value="tl"/></object></center>
+<div style="position:fixed;bottom:100px;left:0px;"><img src="http://media.tumblr.com/08eab72cad0693f6e1886655c0407e9a/tumblr_inline_mqr51pKuEp1qz4rgp.png" height="350px"></div>
+<div style="position:fixed;top:0px;right:0px;"><img src="http://25.media.tumblr.com/f80f250fae2454650c0deb3f9965b44c/tumblr_mkyr2aXBLS1s9b4wqo1_500.png" height="350px"></div>
+<div style="position:fixed;bottom:0px;right:0px;"><iframe class="btn" frameborder="0" border="0" scrolling="no" allowtransparency="true" height="25" width="113" src="http://platform.tumblr.com/v1/follow_button.html?button_type=2&tumblelog=differenting&color_scheme=light"></iframe></div>
+</html>
+<script type="text/javascript" src="http://bpmaker.giffy.me/userdata/user/39/39927/8/parts.js"></script>
