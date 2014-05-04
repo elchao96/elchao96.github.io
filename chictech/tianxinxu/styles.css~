@@ -1,0 +1,99 @@
+@charset "utf-8";
+.bcenter
+{
+	margin: 0 auto;
+	width: 960px;
+}
+
+.bcenter
+{
+	background-color: #FFB6C1;
+	max-width: 1000;
+	margin: 0 auto;
+}
+
+h1
+{
+	font-size: 42px;	
+	text-align: center;
+	font-family: 'AF';
+	font-size: 80px;
+	color: #FF0099;
+	padding: 0px;
+}
+
+.navbar
+{
+	float: center;
+	padding: 0px;
+	margin: 60px auto 30px auto;
+	width: 1000px;
+	display: block;
+	background-color: #FF6699;
+	border-radius: 20px; 
+	border-style: outset;
+	border-color: #FFFFFF;
+	border-width: 5px;
+	
+}	
+
+.navbar ul
+{
+	list-style-type: none;
+	padding: 5px;
+	margin: 10px 0px 10px 0px;
+	
+}
+
+.navbar li
+{	
+	display: inline;
+	float: center;
+	padding: 24px;
+	font-size: 18px;
+	font-family: 'Delicious Curls';
+	font-weight: bold;
+	font-color: white;
+}
+
+p1
+{
+	font-family: 'MF';
+}
+
+td
+{
+	font-family: 'long';
+}
+
+#pic
+{
+	border-radius: 15px;
+}
+
+
+@font-face
+{
+	src: url('Delicious Curls.ttf');
+	font-family: 'Delicious Curls';
+	
+}
+
+@font-face
+{
+	src: url('always forever.ttf');
+	font-family: 'AF';
+}
+
+@font-face
+{
+	src: url('Moon Flower.ttf');
+	font-family: 'MF';
+}
+
+@font-face
+{
+	src: url('ThrowMyHandsUpintheAir.ttf');
+	font-family: 'long';
+}
+

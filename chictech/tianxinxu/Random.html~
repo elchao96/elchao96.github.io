@@ -1,0 +1,27 @@
+<!DOCTYPE html lang="en">
+<html>
+<link rel="stylesheet" type="text/css" href="styles.css"/>
+<head>
+	<title>Other Random Things I love</title>
+</head>
+<body class="bcenter">
+	<div class="navbar">	
+		<ul>
+			<li><a href="Home.html">Home</a></li>			
+			<li><a href="FavBooks.html">Favorite Books</a></li>
+			<li><a href="FavMovies.html">Favorite Movies</a></li>
+			<li><a href="Random.html">Random Things I Love</a></li>
+			<li><a href="ChicTech.html">Fun at the ChicTech Retreat 2014</a></li>
+			
+		</ul>
+	</div>
+	<h1 class="bcenter">Other Random Things I love</h1>
+	<p align="center">
+	<img id="pic" width="240" src="http://www.clipartbest.com/cliparts/niX/ykp/niXykp5iB.jpeg"/>
+	<img id="pic" width="240" src="https://lh4.googleusercontent.com/KkFLBcctXZHfxORA7ZXTeIqLA9e6OKm8Iant9rEuaws=w276-h207-p-no"/>
+	<img id="pic" width="240" src="http://jupiter.plymouth.edu/~asjacques/CSDI1200/flute.jpg"/>
+	<img id="pic" width="240" src="https://lh6.googleusercontent.com/-DoioRZ7dFnE/UrOT_DeedXI/AAAAAAAABpA/DEJW8MH1p10/w413-h698-no/20131218_230431-1.jpg"/>
+	<img id="pic" width="240px" src="http://www.mfolz.com/science-details/I-HEART-MATH.gif"/>	
+	</p>
+</body>
+</html>

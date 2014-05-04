@@ -1,0 +1,10 @@
+<!DOCTYPE html lang="en">
+<html>
+<link rel="stylesheet" type="text/css" href="styles.css"/>
+<head>
+	<Title>My Favorite Foods</title>
+</head>
+<body>
+	<h1 class="bcenter">My Favorite Foods</h1>
+</body>
+</html>

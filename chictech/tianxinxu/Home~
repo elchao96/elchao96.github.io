@@ -1,0 +1,22 @@
+<!DOCTYPE html lang="en">
+<html>
+<head>
+	<title>My First Website</title>
+</head>
+<body>
+	<div class="navbar">	
+		<ul>
+			<li><a href="Home">Home Page</a></li>
+			<li><a href="FavoriteBooks.html">Favorite Books</a></li>
+			<li><a href="FavoriteMovies.html">Favorite Movies</a></li>
+			<li><a href="FavoritePlaces.html">Favorite Places</a></li>
+			<li><a href="FavoriteFood.html">Favorite Foods</a></li>
+		</ul>
+	</div>
+	<h1> My First Website, Made @ ChicTech! </h1>
+	</br>
+	<a href="https://wiki.engr.illinois.edu/display/wcs/ChicTech+Retreat"> <img src="logo.png" alt= "ChicTech"/> </a>
+	<p><b><i><u>Visit this website to see all my favorite things!</p></b>
+	
+</body>
+</html>
