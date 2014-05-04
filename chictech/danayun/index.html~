@@ -1,0 +1,25 @@
+<!DOCTYPE html lang="en">
+<html>
+	<head>
+		<title>Dana's Favorite Things</title>
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
+	</head>
+	<body class="bcenter">
+	<h1 class="titlecenter">These are a Few of My Favorite Things!</h1>
+	<div class="navbar">
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="favbooks.html">Books]</a></li>
+			<li><a href="favmovies.html">TV}</a></li>
+			<li><a href="favplaces.html">Random{</a></li>
+			<li><a href="favfood.html">Extra]</a></li>
+		</ul>
+	</div>
+	<p align="center"><font size=20>Hey guys!</font></p>
+	<p>My name is <i>Dana</i>.</p>
+	<p>I'm at ChicTech. It's so much fun. Can't wait to comeback next year!</p>
+	<p>Coding is kinds confusing but the colors are pretty...</p>
+	<p>Do you like my pink theme?</p>
+	<p>There's so much you can do! You can <i>italicize</i>, <b>make bold</b>, and even <u>underline</u>!</p>
+	<p>Would you like to see some of my favorite things? Click on any topic above!</p>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html lang="en">
+<html>
+	<head>
+		<title>Dana's Favorite Things</title>
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
+	</head>
+	<body class="bcenter">
+	<h1 class="titlecenter">These are a Few of My Favorite Things!</h1>
+	<div class="navbar">
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="favbooks.html">Books]</a></li>
+			<li><a href="favmovies.html">TV}</a></li>
+			<li><a href="favplaces.html">Random{</a></li>
+			<li><a href="favfood.html">Extra]</a></li>
+		</ul>
+	</div>
+	<p><br></p>
+<h1 class="titlecenter"><font size=20>Some of my favorite nails of the 2013-2014 School Zear!</font></h1>
+	<table>
+		<tr>
+			<td><img src="1.jpg" width="400" height="auto" alt="Sleep"></img></td>
+			<td><img src="2.jpg" width="400" height="auto" alt="Read"></img></td>
+		</tr>
+		<tr>
+			<td>First Day of School</td>
+			<td>Gradient Kit from Mary Ann</td>
+		</tr>
+		<tr>
+			<td><img src="3.jpg" width="400" height="auto" alt="Jump"></img></td>
+			<td><img src="4.jpg" width="400" height="auto" alt="Math"></img></td>
+		</tr>
+		<tr>
+			<td>Gradient Polka Dots</td>
+			<td>Autumn Owls and Leaves</td>
+		</tr>
+		<tr>
+			<td><img src="5.jpg" width="200" height="auto" alt="Bus"></img></td>
+			<td><img src="8.jpg" width="400" height="auto" alt="Walk"></img></td>
+		</tr>
+		<tr>
+			<td>New Years' Eve</td>
+			<td>Spring is almost Here</td>
+		</tr>
+	</table>
+	<p><br></p>
+	<h1 class="titlecenter"><font size=20>Google Scavenger Hunt on May 3, 2014!</font></h1>
+	<table>
+		<tr>
+			<td><img src="read.JPG" width="400" height="auto" alt="Read"></img></td>
+			<td><img src="jump.JPG" width="400" height="auto" alt="Jump"></img></td>
+		</tr>
+		<tr>
+			<td>Reading with Granger Bob</td>
+			<td><b><i><u>AWARD WINNING</u></i></b><br> Who's excited?</td>
+		</tr>
+		<tr>
+			<td><img src="bus.JPG" width="400" height="auto" alt="Bus"></img></td>
+			<td><img src="echo.JPG" width="400" height="auto" alt="Echo"></img></td>
+		</tr>
+		<tr>
+			<td><b><i><u>AWARD WINNING</u></i></b><br> Help! We're trapped!</td>
+			<td>Stand on it, yell, and you're the only one that can hear the echo.</td>
+		</tr>
+		<tr>
+			<td><img src="cafe.JPG" width="400" height="auto" alt="Cafe"></img></td>
+			<td><img src="walk.JPG" width="400" height="auto" alt="Walk"></img></td>
+		</tr>
+		<tr>
+			<td>Refreshing beverages after a long walk</td>
+			<td>Walking back to claim our prize!</td>
+	</table>

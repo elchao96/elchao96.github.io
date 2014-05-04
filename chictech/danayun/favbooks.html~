@@ -1,0 +1,23 @@
+<!DOCTYPE html lang="en">
+<html>
+	<head>
+		<title>Dana's Favorite Things</title>
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
+	</head>
+	<body class="bcenter">
+	<h1 class="titlecenter">These are a Few of My Favorite Things!</h1>
+	<div class="navbar">
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="favbooks.html">Books]</a></li>
+			<li><a href="favmovies.html">TV}</a></li>
+			<li><a href="favplaces.html">Random{</a></li>
+			<li><a href="favfood.html">Extra]</a></li>
+		</ul>
+	</div>
+	<img src="Tiger.jpg" width="400" height="auto" alt="Tiger's Curse"/>
+	<img src="quest.jpg" width="400" height="auto" alt="Tiger's Quest"/>
+	<img src="destiny.jpg" width="400" height="auto" alt="Tiger's Destiny"/>
+	<img src="voyage.jpg" width="400" height="auto" alt="Tiger's Voyage"/>
+	<img src="unwi.jpg" width="400" height="auto" alt="Unwind"></img>
+	<img src="stars.jpg" width="400" height="auto" alt="Fault in Our Stars"/>
