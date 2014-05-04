@@ -1,0 +1,22 @@
+<!DOCTYPE html lang="en">
+<html>
+	<head>
+<link rel="stylesheet" type="text/css" href="styles.css"/>
+		<!--Here is where you will find the links to stylesheets (something we’ll cover later) and scripts (something we’ll get to, if time permits).-->
+	</head>
+	<body>
+		<!--Here is where you will start building your web page - links, navigation bars, lists, paragraphs, headings, etc.-->
+<center>
+	<div class="navbar"> 
+	<ul>
+	<li><a href="index.html"> HOME</a></li>
+	<li><a href="favbooks.html"> BOOKS</a></li>
+	<li><a href="favmovies.html"> MOVIES</a></li>
+	<li><a href="favplaces.html"> PLACES</a></li>
+	<li><a href="favfoods.html"> FOODS</a></li>
+	</ul>
+	</center>
+	</div>
+		
+
+</html>

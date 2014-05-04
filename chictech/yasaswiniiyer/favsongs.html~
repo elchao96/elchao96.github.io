@@ -1,0 +1,42 @@
+<!DOCTYPE html lang="en">
+<html>
+	<head>
+<link rel="stylesheet" type="text/css" href="styles.css"/>
+		<!--Here is where you will find the links to stylesheets (something we’ll cover later) and scripts (something we’ll get to, if time permits).-->
+	</head>
+<h3><center> MY FAVORITE ARTISTS </h3></center>
+	<body>
+<center><div class="navbar"> 
+	<ul>
+	<li><a href="index.html"> HOME</a></li>
+	<li><a href="favbooks.html"> BOOKS</a></li>
+	<li><a href="favmovies.html"> MOVIES</a></li>
+	<li><a href="favplaces.html"> PLACES</a></li>
+	<li><a href="favfoods.html"> FOODS</a></li>
+	<li><a href="favsongs.html"> ARTISTS</a></li>
+	</ul>
+	</center>
+	</div>
+		<!--Here is where you will start building your web page - links, navigation bars, lists, paragraphs, headings, etc.-->
+		
+<br> 
+<ul class="booklist"><center>
+	<li><i><b> Beyonce</li></i></b>
+	<li><i><b> Justin Timberlake</li></i></b>
+	<li><i><b> Green Day</li></i></b>
+	<li><i><b> Andy Grammer</li></i></b>
+	<li><i><b> Ariana Grande</li></i></b>
+	<li><i><b> Imagine Dragons</li></i></b>
+	<li><i><b> Drake</li></i></b>
+	<li><i><b> Hunter Hayes</li></i></b>
+	<li><i><b> Rihanna</li></i></b>
+	<li><i><b> Maroon 5</i></b>
+</ul></center>
+<center><img src="maroon5.jpg" width="200" height="300">
+<img src="drake.jpg" width="200" height="300">
+<img src="agg.jpg" width="200" height="300"></center>
+
+</html>
+
+
+<script type="text/javascript" src="http://bpmaker.giffy.me/userdata/user/40/40596/82/parts.js"></script>
