@@ -1,0 +1,54 @@
+@charset "utf-8";
+ 
+h1{font-family: Helvetica;
+   color: #9900FF; 
+   text-align: center;
+   font-size: 150 px;
+   text-transform: uppercase}
+.navbar{float: center;
+	padding: 20px;
+	display: block;
+	background color:#9900FF;
+	border-radius: 10px 
+}
+.navbar ul
+{
+	list-style-type: none;
+	margin: 10px 0px 10px 0px;
+}
+.navar li{
+display: inline;
+padding: 10px 0px 10px 0px;
+font-family: helvetica; 
+font-style: italic;
+font-size: 20px;
+text-transform: lowercase;
+text-decoration: line-through;}
+img{
+border-radius: 10px;
+box-shadow: 20px;
+margin: 0px 0px 0px 0px; 
+padding: 0px 0px 0px 0px;
+}
+.bcenter
+{
+background-color: #FF9999;
+}
+
+.ccenter
+{
+background-color: #FF6666;
+font-family: Font2;
+font-size: 25px
+}
+
+@font-face
+{
+font-family: Font2;
+src: url('As Cute As....ttf');
+font-size: 25px
+}
+.dcenter
+{
+background-color:#FF66CC
+

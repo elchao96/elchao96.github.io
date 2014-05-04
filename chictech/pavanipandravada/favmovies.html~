@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title> Pavani Pandravada's Website</title>
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
+		<!--Here is where you will find the links to stylesheets (something we’ll cover later) and scripts (something we’ll get to, if time permits).-->
+	</head>
+	<body class="dcenter">
+		<h1> My Favorite Movies </h1>
+		<p><i> I like movies!  </i></p>
+		<img src="Titanic_poster.jpg" width="200" height="300" alt="Titanic"/>
+		<img src="sound_of_music.jpg" width="200" height="300" alt="Sound of Music"/>
+		<img src="Mean_Girls.jpg" width="200" height="300" alt= "Mean Girls"/>
+		<img src="legally_blonde.jpg" width="200" height="300" alt="Leaglly Blonde"/>
+		<img src="beauty_and_the_beast.jpg" width="200" height="300" alt="Beauty and the Beast"/>
+		<img src="Frozen.jpg" width="200" height="300" alt="Frozen"/>
+		<p> You jump, I jump, remember? ~Jack, <i> Titanic </i> </p>
+		<p> These are a few of my favorite things. ~Maria <i> The Sound of Music </i> </p> 
+		<p> Don't let the haters stop you from doing your <i> thang </i> ~Kevin Gnapoor <i> Mean Girls </i> </p>
+	
+
+		
+		
+	</body>
+</html>
