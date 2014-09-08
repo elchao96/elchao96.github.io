@@ -32,3 +32,17 @@ footer
 {
 	height: 150px;
 }
+
+/* Text */
+.alignright
+{
+	float: right;
+}
+.alignleft
+{
+	float: left;
+}
+.floatCleared
+{
+	clear: both;
+}
