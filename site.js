@@ -19,7 +19,7 @@ emilyChaoApp.config(function($routeProvider) {
 		.when('/', {
 			templateUrl : 'blog.html',
 			controller : 'blogController'
-		});
+		})
 		.when('/', {
 			templateUrl : 'contact.html',
 			controller : 'contactController'
