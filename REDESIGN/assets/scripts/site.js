@@ -1,23 +1,49 @@
-$(document).ready(function() {
-	/*navigation click actions*/
-	$('.scroll-link').on('click', function(event) {
-		event.preventDefault();
-		var sectionID = $(this).attr("data-id");
-		scrollToID('#' + sectionID, 750);
-	});
+//my App
+var emilyChaoApp = angular.module('scotchApp', ['ngRoute']);
+
+//configure routes
+emilyChaoApp.config(function($routeProvider) {
+	$routeProvider
+		.when('/', {
+			templateUrl : 'home.html',
+			controller : mainController
+		})
+		.when('/', {
+			templateUrl : 'resume.html',
+			controller : resumeController
+		})
+		.when('/', {
+			templateUrl : 'projects.html',
+			controller : projectsController
+		})
+		.when('/', {
+			templateUrl : 'blog.html',
+			controller : blogController
+		});
+		.when('/', {
+			templateUrl : 'contact.html',
+			controller : contactController
+		});
+
+	$locationProvider.html5Mode(true);
+})
+
+emilyChaoApp.controller('mainController', function($scope) {
+	$scope.message = "UIUC CS '17, Miss Possible Web Dev, Part of NCWITAiC, Passionate about Gender Equality, LGBTQ Equality in the Workplace, Loves Coding, Thinking Deeply, Writing and Singing at the Top of My Lungs";
 });
 
-function scrollToID(id, speed) {
-	/*height of the navbar*/
-	var offset = 50;
+emilyChaoApp.controller('resumeController', function($scope) {
+	$scope.message = "A Collection of Experiences and Education, A Log of My Ongoing Journey to Becoming A Competent Software Engineer";
+});
 
-	/*adjusting the div's top*/
-	var targetOffset = $(id).offset().top - offset;
-	$('html,body').animate({scrollTop: targetOffset}, speed);
-}
+emilyChaoApp.controller('projectsController', function($scope) {
+	$scope.message = "A Record of Complete Projects, What's on the Pipeline, What's to Come, My Ideas Box";
+});
 
-if (typeof console === "undefined") {
-	console = {
-		log: function() {}
-	};
-}
+emilyChaoApp.controller('blogController', function($scope) {
+	$scope.message = "A Stream of Consciouness with Some Editing, An Output of Reflections and Ideas";
+});
+
+emilyChaoApp.controller('contactController', function($scope) {
+	$scope.message = "All Ways to Reach Me, Excluding Snail Mail";
+});
