@@ -5,23 +5,23 @@ var emilyChaoApp = angular.module('emilyChaoApp', ['ngRoute']);
 emilyChaoApp.config(function($routeProvider) {
 	$routeProvider
 		.when('/', {
-			templateUrl : 'home.html',
+			templateUrl : 'pages/home.html',
 			controller : 'mainController'
 		})
 		.when('/', {
-			templateUrl : 'resume.html',
+			templateUrl : 'pages/resume.html',
 			controller : 'resumeController'
 		})
 		.when('/', {
-			templateUrl : 'projects.html',
+			templateUrl : 'pages/projects.html',
 			controller : 'projectsController'
 		})
 		.when('/', {
-			templateUrl : 'blog.html',
+			templateUrl : 'pages/blog.html',
 			controller : 'blogController'
 		})
 		.when('/', {
-			templateUrl : 'contact.html',
+			templateUrl : 'pages/contact.html',
 			controller : 'contactController'
 		});
 })
