@@ -1,5 +1,5 @@
 //my App
-var emilyChaoApp = angular.module('scotchApp', ['ngRoute']);
+var emilyChaoApp = angular.module('emilyChaoApp', ['ngRoute']);
 
 //configure routes
 emilyChaoApp.config(function($routeProvider) {
