@@ -6,26 +6,24 @@ emilyChaoApp.config(function($routeProvider) {
 	$routeProvider
 		.when('/', {
 			templateUrl : 'home.html',
-			controller : mainController
+			controller : 'mainController'
 		})
 		.when('/', {
 			templateUrl : 'resume.html',
-			controller : resumeController
+			controller : 'resumeController'
 		})
 		.when('/', {
 			templateUrl : 'projects.html',
-			controller : projectsController
+			controller : 'projectsController'
 		})
 		.when('/', {
 			templateUrl : 'blog.html',
-			controller : blogController
+			controller : 'blogController'
 		});
 		.when('/', {
 			templateUrl : 'contact.html',
-			controller : contactController
+			controller : 'contactController'
 		});
-
-	$locationProvider.html5Mode(true);
 })
 
 emilyChaoApp.controller('mainController', function($scope) {
