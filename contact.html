@@ -1,33 +1,9 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="assets/css/portfolio.css"/>
-	</head>
-	<body class="body-center">
-		<title>Contact Me</title>
-		<script type="text/javascript" src="assets/js/portfolio.js"></script>
-		<!-- navbar -->
-		<div class="navbar">
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="resume.html">Resume</a></li>
-				<li><a href="projects.html">Projects</a></li>
-				<li><a href="blog.html">Blog</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</div>
-		<!-- end navbar -->
-		<br/>
-		<br/>
-		<br/>
-		<h1>Contact Me</h1>
-		<p>Click on any of the links below to contact me, via email, Github or LinkedIn.</p>
-		<div class="contactList">
-			<ul>
-				<li><a href="mailto:elchao96@gmail.com"><img class="contactImg" src="assets/img/EMAIL.png"/></a></li>
-				<li><a href="http://www.github.com/elchao96"/><img class="contactImg" src="assets/img/GITHUB.png"></a></li>
-				<li><a href="http://www.linkedin.com/in/elchao96"><img class="contactImg" src="assets/img/LINKEDIN.png"></a></li>
-			</ul>
-		</div>
-	</body>
-</html>
+<div class="jumbotron text-center">
+	<h1>Contact Me</h1>
+	{{message}}
+</div>
+<form action="http://forms.brace.io/elchao96@gmail.com">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+</form>

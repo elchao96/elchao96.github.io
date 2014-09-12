@@ -1,33 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="emilyChaoApp">
 	<head>
-		<link rel="stylesheet" type="text/css" href="assets/css/portfolio.css"/>
+		<!--stylesheets-->
+		<link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css"/>
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css"/>
+		<link rel="stylesheet" href="assets/css/site.css"/>
+
+		<base href="/">
+
+		<!--scripts-->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.24/angular.min.js" type="text/javascript"></script>
+		<script src="assets/scripts/site.js" type="text/javascript"></script>
+		<script src="assets/scripts/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+		<script src="assets/scripts/jquery-2.1.1.min.js" type="text/javascript"></script>
+
+		<!--meta-->
+		<title>Emily Chao</title>
+		<meta name="description" content="I'm a current CS student at UIUC. Check out my work.">
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8">
 	</head>
-	<body class="body-center">
-		<title>Emily Chao's Online Portfolio</title>
-		<script type="text/javascript" src="assets/js/portfolio.js"></script>
-		<!-- navbar -->
-		<h1>REDESIGN IN PROGRESS</h1>
-		<h1>CHECK BACK IN A MONTH OR SO</h1>
-		<!--
-		<div class="navbar">
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="resume.html">Resume</a></li>
-				<li><a href="projects.html">Projects</a></li>
-				<li><a href="blog.html">Blog</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</div>-->
-		<!-- end navbar -->
-		<!--<br/>
-		<br/>
-		<br/>
-		<h1>Emily Chao</h1>
-		<img id="profile-picture" src="assets/img/EmilyChao.jpg" width="200" height="300"/>
-		<p>Hello, I am currently an undergraduate student at the University of Illinois, Urbana-Champaign, pursuing a Bachelor of Science in Computer Science as a James Scholar. I have a diverse skill set among areas such as graphic design, object-oriented programming, web development, and user interface design.</p>
-		<p>I am passionate about technology and its ever-increasing rate of advancement, and as a CS major, I strive to help others overcome challenges in using technology so that they can better their quality of life.</p>
-		<p>I have experience working with professionals at top companies in the Cincinnati area as a high school IT intern, including Fortune 50 companies such as Procter and Gamble. I also have experience working in a journalism setting with my school newsmagazine, the Lakota East <i>Spark</i>, and have gained valuable interviewing and communication skills from my three years in the program. This past year, I've gained much insight and experience in project management as webmaster for <i>Spark</i>'s rapidly expanding website.</p>
-		<p>I look forward to making new connections, and applying my skills and knowledge to real-world projects! Feel free to poke around my website. Any feedback is greatly appreciated.</p>-->
+	<body ng-controller="mainController">
+		<nav class="navbar navbar-default" role="navigation">
+  			<div class="container-fluid">
+    			<div class="navbar-header">
+     				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNav">
+       					<span class="sr-only">Toggle navigation</span>
+       					<span class="icon-bar"></span>
+       					<span class="icon-bar"></span>
+       					<span class="icon-bar"></span>
+      				</button>
+      				<a class="navbar-brand" href="/">Emily Chao</a>
+    			</div>
+    			<div class="collapse navbar-collapse" id="mainNav">
+     				<ul class="nav navbar-nav">
+       					<li><a href="#">Home</a></li>
+						<li><a href="#resume">Resume</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#blog">Blog</a></li>
+						<li><a href="#contact">Contact Me</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="https://github.com/elchao96"><i class="fa fa-github-square fa-2x"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/elchao96"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+						<li><a href="https://twitter.com/emilychaosays"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div id="main">
+			<div ng-view></div>
+		</div>
 	</body>
 </html>

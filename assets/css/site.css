@@ -1,0 +1,48 @@
+@charset 'utf-8'
+/* Navigation Bar */
+.container-fluid
+{
+	padding: 0 10% 0 10%;
+}
+.navbar 
+{
+	margin-bottom: 0;
+}
+
+/* Main Divs */
+.wrapper 
+{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin-bottom: -150px;
+}
+.page-section {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Footer */
+footer
+{
+	padding: 10px;
+	height: 150px;
+}
+.push 
+{
+	height: 150px;
+}
+
+/* Text */
+.alignright
+{
+	float: right;
+}
+.alignleft
+{
+	float: left;
+}
+.floatCleared
+{
+	clear: both;
+}
