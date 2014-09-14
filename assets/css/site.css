@@ -1,4 +1,9 @@
 @charset 'utf-8'
+body
+{
+	width: 80%;
+	margin: 0 auto;
+}
 /* Navigation Bar */
 .container-fluid
 {
@@ -10,17 +15,6 @@
 }
 
 /* Main Divs */
-.wrapper 
-{
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	margin-bottom: -150px;
-}
-.page-section {
-	width: 80%;
-	margin: 0 auto;
-}
 
 /* Footer */
 footer
