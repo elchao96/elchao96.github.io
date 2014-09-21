@@ -49,6 +49,5 @@ emilyChaoApp.controller('blogController', function($scope) {
 });
 
 emilyChaoApp.controller('contactController', function($scope) {
-	$scope.message0 = "All Ways to Reach Me";
-	$scope.message1 = "Excluding Snail Mail";
+	$scope.message0 = "All Ways to Reach Me, Excluding Snail Mail";
 });
