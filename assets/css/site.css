@@ -25,6 +25,10 @@ body
 {
 	width: 100% !important;
 }
+.row
+{
+	margin: 2%;
+}
 
 /* Footer */
 footer
