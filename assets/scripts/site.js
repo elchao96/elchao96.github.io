@@ -27,7 +27,7 @@ emilyChaoApp.config(function($routeProvider) {
 })
 
 emilyChaoApp.controller('mainController', function($scope) {
-	$scope.message = "UIUC CS '17</p><p>Miss Possible Web Dev, Part of NCWITAiC</p><p>Passionate about Gender Equality, LGBTQ Equality in the Workplace</p><p>Loves Coding, Thinking Deeply, Writing and Singing at the Top of My Lungs";
+	$scope.message = "UIUC CS '17" + "Miss Possible Web Dev, Part of NCWITAiC" + "Passionate about Gender Equality, LGBTQ Equality in the Workplace" + "Loves Coding, Thinking Deeply, Writing and Singing at the Top of My Lungs";
 });
 
 emilyChaoApp.controller('resumeController', function($scope) {
