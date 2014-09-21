@@ -27,19 +27,19 @@ emilyChaoApp.config(function($routeProvider) {
 })
 
 emilyChaoApp.controller('mainController', function($scope) {
-	$scope.message = "UIUC CS '17, \n Miss Possible Web Dev, Part of NCWITAiC, \n Passionate about Gender Equality, LGBTQ Equality in the Workplace, \n Loves Coding, Thinking Deeply, Writing and Singing at the Top of My Lungs";
+	$scope.message = "UIUC CS '17</p><p>Miss Possible Web Dev, Part of NCWITAiC</p><p>Passionate about Gender Equality, LGBTQ Equality in the Workplace</p><p>Loves Coding, Thinking Deeply, Writing and Singing at the Top of My Lungs</p>";
 });
 
 emilyChaoApp.controller('resumeController', function($scope) {
-	$scope.message = "A Collection of Experiences and Education, \n A Log of My Ongoing Journey to Becoming A Competent Software Engineer";
+	$scope.message = "A Collection of Experiences and Education, A Log of My Ongoing Journey to Becoming A Competent Software Engineer";
 });
 
 emilyChaoApp.controller('projectsController', function($scope) {
-	$scope.message = "A Record of Complete Projects, \n What's on the Pipeline, \n What's to Come, \n My Ideas Box";
+	$scope.message = "A Record of Complete Projects, What's on the Pipeline, What's to Come, My Ideas Box";
 });
 
 emilyChaoApp.controller('blogController', function($scope) {
-	$scope.message = "A Stream of Consciouness with Some Editing, \n An Output of Reflections and Ideas";
+	$scope.message = "A Stream of Consciouness with Some Editing, An Output of Reflections and Ideas";
 });
 
 emilyChaoApp.controller('contactController', function($scope) {
