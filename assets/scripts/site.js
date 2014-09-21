@@ -27,21 +27,28 @@ emilyChaoApp.config(function($routeProvider) {
 })
 
 emilyChaoApp.controller('mainController', function($scope) {
-	$scope.message = "UIUC CS '17" + "Miss Possible Web Dev, Part of NCWITAiC" + "Passionate about Gender Equality, LGBTQ Equality in the Workplace" + "Loves Coding, Thinking Deeply, Writing and Singing at the Top of My Lungs";
+	$scope.message0 = "UIUC CS '17";
+	$scope.message1 = "Miss Possible Web Dev, Part of NCWITAiC";
+	$scope.message2 = "Passionate about Gender Equality, LGBTQ Equality in the Workplace";
+	$scope.message3 = "Loves Coding, Thinking Deeply, Writing and Singing at the Top of My Lungs";
 });
 
 emilyChaoApp.controller('resumeController', function($scope) {
-	$scope.message = "A Collection of Experiences and Education, A Log of My Ongoing Journey to Becoming A Competent Software Engineer";
+	$scope.message0 = "A Collection of Experiences and Education";
+	$scope.message1 = "A Log of My Ongoing Journey to Becoming A Competent Software Engineer";
 });
 
 emilyChaoApp.controller('projectsController', function($scope) {
-	$scope.message = "A Record of Complete Projects, What's on the Pipeline, What's to Come, My Ideas Box";
+	$scope.message0 = "A Record of Complete Projects";
+	$scope.message1 = "What's on the Pipeline";
 });
 
 emilyChaoApp.controller('blogController', function($scope) {
-	$scope.message = "A Stream of Consciouness with Some Editing, An Output of Reflections and Ideas";
+	$scope.message0 = "A Stream of Consciouness with Some Editing";
+	$scope.message1 = "An Output of Reflections and Ideas";
 });
 
 emilyChaoApp.controller('contactController', function($scope) {
-	$scope.message = "All Ways to Reach Me, Excluding Snail Mail";
+	$scope.message0 = "All Ways to Reach Me";
+	$scope.message1 = "Excluding Snail Mail";
 });
