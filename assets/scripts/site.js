@@ -16,10 +16,6 @@ emilyChaoApp.config(function($routeProvider) {
 			templateUrl : 'pages/projects.html',
 			controller : 'projectsController'
 		})
-		.when('/blog', {
-			templateUrl : 'pages/blog.html',
-			controller : 'blogController'
-		})
 		.when('/contact', {
 			templateUrl : 'pages/contact.html',
 			controller : 'contactController'
@@ -31,23 +27,22 @@ emilyChaoApp.controller('mainController', function($scope) {
 	$scope.message1 = "Miss Possible Web Dev, Part of NCWITAiC";
 	$scope.message2 = "Passionate about Gender Equality, LGBTQ Visibility";
 	$scope.message3 = "Loves Coding, Thinking Deeply, Writing and Singing at the Top of My Lungs";
+	$scope.pageClass = "page-home";
 });
 
 emilyChaoApp.controller('resumeController', function($scope) {
 	$scope.message0 = "A Collection of Experiences and Education";
 	$scope.message1 = "A Log of My Ongoing Journey to Becoming A Competent Software Engineer";
+	$scope.pageClass = "page-resume";
 });
 
 emilyChaoApp.controller('projectsController', function($scope) {
 	$scope.message0 = "A Record of Complete Projects";
 	$scope.message1 = "What's on the Pipeline";
-});
-
-emilyChaoApp.controller('blogController', function($scope) {
-	$scope.message0 = "A Stream of Consciouness with Some Editing";
-	$scope.message1 = "An Output of Reflections and Ideas";
+	$scope.pageClass = "page-projects";
 });
 
 emilyChaoApp.controller('contactController', function($scope) {
 	$scope.message0 = "All Ways to Reach Me, Excluding Snail Mail";
+	$scope.pageClass = "page-contact";
 });

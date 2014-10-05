@@ -96,17 +96,17 @@ footer
 	from {opacity: 1;}
 	to {opacity: 0;}
 }
-.fade.ng-enter
+.page-home.ng-enter, .page-resume.ng-enter, .page-projects.ng-enter, .page-contact.ng-enter
 {
-	-webkit-animation: fade-enter 1s ease-in;
-	-moz-animation: fade-enter 1s ease-in;
-	-o-animation: fade-enter 1s ease-in;
-	animation: fade-enter 1s ease-in;
+	-webkit-animation: fade-enter 1s ease;
+	-moz-animation: fade-enter 1s ease;
+	-o-animation: fade-enter 1s ease;
+	animation: fade-enter 1s ease;
 }
-.fade.ng-leave
+.page-home.ng-leave, .page-resume.ng-leave, .page-projects.ng-leave, .page-contact.ng-leave
 {
-	-webkit-animation: fade-leave 1s ease-in;
-	-moz-animation: fade-leave 1s ease-in;
-	-o-animation: fade-leave 1s ease-in;
-	animation: fade-leave 1s ease-in;
+	-webkit-animation: fade-leave 1s ease;
+	-moz-animation: fade-leave 1s ease;
+	-o-animation: fade-leave 1s ease;
+	animation: fade-leave 1s ease;
 }
