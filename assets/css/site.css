@@ -34,7 +34,7 @@ body
 	width: 100%;
 	margin: 0 auto;
 	height: inherit;
-	max-height: 100%;
+	max-height: 490px;
 }
 .carousel-caption
 {
