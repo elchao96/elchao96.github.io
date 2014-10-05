@@ -29,9 +29,11 @@ body
 {
 	margin: 2%;
 }
-.col-md-3>img 
+.projectImg
 {
-	width: 100%;
+	width: auto;
+	margin: 0 auto;
+	height: 200px;
 }
 
 /* Footer */
