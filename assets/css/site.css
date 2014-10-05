@@ -31,9 +31,10 @@ body
 }
 .projectImg
 {
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
-	height: 200px;
+	height: inherit;
+	max-height: 100%;
 }
 .carousel-caption
 {
