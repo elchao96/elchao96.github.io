@@ -40,6 +40,10 @@ body
 	background-color: rgba(0, 0, 0, 0.75);
 	bottom: 0px;
 }
+.carousel-indicators
+{
+	bottom: 10px !important;
+}
 
 /* Footer */
 footer
