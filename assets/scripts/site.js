@@ -51,3 +51,11 @@ emilyChaoApp.controller('blogController', function($scope) {
 emilyChaoApp.controller('contactController', function($scope) {
 	$scope.message0 = "All Ways to Reach Me, Excluding Snail Mail";
 });
+
+$(document).ready(function () {
+	$('#educationExpand').click(function () {
+		$('#education').toggle();
+		$('#educationExpand').toggleClass('.fa-plus-square', '.fa-minus-square');
+	});
+	$('#education')
+});
