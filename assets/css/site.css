@@ -35,6 +35,10 @@ body
 	margin: 0 auto;
 	height: 200px;
 }
+.carousel-caption
+{
+	background-color: rgba(0, 0, 0, 0.75);
+}
 
 /* Footer */
 footer
