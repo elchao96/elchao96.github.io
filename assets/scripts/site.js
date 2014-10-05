@@ -1,5 +1,5 @@
 //my App
-var emilyChaoApp = angular.module('emilyChaoApp', ['ngRoute']);
+var emilyChaoApp = angular.module('emilyChaoApp', ['ngRoute', 'ngAnimate']);
 
 //configure routes
 emilyChaoApp.config(function($routeProvider) {

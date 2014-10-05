@@ -84,3 +84,29 @@ footer
 {
 	color: #522B72;
 }
+
+/* Animations */
+@keyframes fade-enter
+{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+@keyframes fade-leave
+{
+	from {opacity: 1;}
+	to {opacity: 0;}
+}
+.fade.ng-enter
+{
+	-webkit-animation: fade-enter 1s ease-in;
+	-moz-animation: fade-enter 1s ease-in;
+	-o-animation: fade-enter 1s ease-in;
+	animation: fade-enter 1s ease-in;
+}
+.fade.ng-leave
+{
+	-webkit-animation: fade-leave 1s ease-in;
+	-moz-animation: fade-leave 1s ease-in;
+	-o-animation: fade-leave 1s ease-in;
+	animation: fade-leave 1s ease-in;
+}
