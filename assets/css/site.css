@@ -38,6 +38,7 @@ body
 .carousel-caption
 {
 	background-color: rgba(0, 0, 0, 0.75);
+	bottom: 0px;
 }
 
 /* Footer */
