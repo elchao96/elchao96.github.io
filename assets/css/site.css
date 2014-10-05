@@ -29,6 +29,10 @@ body
 {
 	margin: 2%;
 }
+.col-md-3>img 
+{
+	width: 100%;
+}
 
 /* Footer */
 footer
