@@ -2,8 +2,8 @@
 	<h1>Contact Me</h1>
 	<p>{{ message0 }}</p>
 </div>
-<div class="row">
-	<form role="form" method="POST" action="http://forms.brace.io/elchao96@gmail.com">
+<form role="form" method="POST" action="http://forms.brace.io/elchao96@gmail.com">
+	<div class="row">
 		<div class="col-md-6">
 			<div class="form-group">
 				<label for="nameInput">Name</label>
@@ -16,10 +16,12 @@
 				<input type="email" name="_replyto" class="form-control" id="emailInput" placeholder="Enter email">
 			</div>
 		<div>
+	</div>
+	<div class="row">
 		<div class="form-group">
 			<label for="messageInput">Message</label>
 			<textarea class="form-control" name="message" id="messageInput" rows="6" placeholder="Enter message"></textarea>
 		</div>
     	<button type="submit" value="Send" class="btn btn-default">Send</button>
-	</form>
-</div>
+    </div>
+</form>
