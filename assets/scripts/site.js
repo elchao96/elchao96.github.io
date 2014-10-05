@@ -51,3 +51,7 @@ emilyChaoApp.controller('blogController', function($scope) {
 emilyChaoApp.controller('contactController', function($scope) {
 	$scope.message0 = "All Ways to Reach Me, Excluding Snail Mail";
 });
+
+$('#repoExpiringYa').repo({ user: 'elchao96', name: 'ExpiringYa' });
+
+$('#repoPlanQuest').repo({ user: 'elchao96', name: 'PlanQuest' });
