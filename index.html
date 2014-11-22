@@ -15,15 +15,9 @@
         <link rel="stylesheet" href="assets/css/site.css"/>
         <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="assets/css/font-awesome.min.css"/>
-        
-        <!--scripts-->
-        <script src="assets/scripts/jquery-2.1.1.min.js" type="text/javascript"></script>
-        <script src="assets/scripts/site.js" type="text/javascript"></script>
-        <script src="assets/scripts/bootstrap/bootstrap.min.js" type="text/javascript"></script>
-        <script src="assets/scripts/modernizr.js" type="text/javascript"></script>
     </head>
     <body>
-        <nav class="navbar navbar-default" role="navigation">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   			<div class="container-fluid">
     			<div class="navbar-header">
      				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNav">
@@ -36,134 +30,38 @@
     			</div>
     			<div class="collapse navbar-collapse" id="mainNav">
      				<ul class="nav navbar-nav">
-       					<li><a href="#">Home</a></li>
-                        <li><a href="#about">About Me</a></li>
-                        <li><a href="#education">Education</a></li>
-						<li><a href="#experience">Experience</a></li>
-						<li><a href="#projects">Projects</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#follow">Follow Me</a></li>
-						<li><a href="#contact">Contact Me</a></li>
+       					<li><a href="#" class="scroll-link" data-id="home">Home</a></li>
+                        <li><a href="#" class="scroll-link" data-id="about">About Me</a></li>
+                        <li><a href="#" class="scroll-link" data-id="education">Education</a></li>
+						<li><a href="#" class="scroll-link" data-id="experience">Experience</a></li>
+						<li><a href="#" class="scroll-link" data-id="projects">Projects</a></li>
+                        <li><a href="#" class="scroll-link" data-id="skills">Skills</a></li>
+                        <li><a href="#" class="scroll-link" data-id="follow">Follow Me</a></li>
+						<li><a href="#" class="scroll-link" data-id="contact">Contact Me</a></li>
 					</ul>
 				</div>
 			</div>
 		</nav>
         <div class="wrapper">
-            <div class="about">
-                <h1>Emily Chao</h1>
-                <p>Currently a Computer Science student at the University of Illinois at Urbana-Champaign. </p>
-                <p>UIUC CS '17</p>
-                <p>Miss Possible Web Dev, Part of NCWITAiC</p>
-                <p>Passionate about Gender Equality, AAPI LGBTQ Visibility</p>
-                <p>Loves Coding, Thinking Deeply, Writing, Singing</p>
+            <div id="home">
+                <h1 align="center">Emily Chao</h1>
+                <p>I'm aspiring software engineer. Feel free to check out my work.</p>
+                <i class="fa fa-chevron-circle-down fa-5x"></i>
+            </div>
+            <div id="about">
+                <h1 align="center">About Me</h1>
+                <p>Hello! Thanks for checking out my personal website! It's still under construction, but feel free to take a look around and give feedback!</p>
+                <p>I'm currently pursuing a Bachelor's degree in Computer Science at the University of Illinois at Urbana-Champaign. I'm deeply interested in full-stack web development, as well as software engineering in general, but I'm also looking into expanding my knowledge in other areas of technology as well.</p>
+                <p>I'm passionate about women in tech as well as LGBTQ visibility. In my (little-to-none) spare time, you can find me hanging out in the WCS office at UIUC, drafting my next post on Medium and/or singing at the top of my lungs to my 4-hour-long main playlist on Spotify.</p>
+            </div>
+            <div id="education">
             </div>
             <div id="experience">
-                <!-- Dow -->
-	           <div class="floatCleared">
-		          <p class="alignleft"><strong>Dow Chemical Company</strong></p>
-		          <p class="alignright"><i>Research Park, Urbana-Champaign, IL</i></p>
-	           </div>         
-	           <div class="floatCleared">
-                   <p class="alignleft"><strong>Systems Intern</strong></p>
-		           <p class="alignright"><i>Aug. 2014 - Present</i></p>
-	           </div> 
-	           <!-- kCura -->
-	           <div class="floatCleared">
-		          <hr></hr>
-		          <p class="alignleft"><strong>kCura</strong></p>
-		          <p class="alignright"><i>Chicago, IL</i></p>
-	           </div>
-	           <div class="floatCleared">
-		          <p class="alignleft"><strong>Software Engineering Intern, Product Development</strong></p>
-		          <p class="alignright"><i>May 2014 - Aug. 2014</i></p>
-	           </div>
-	           <br/><br/>
-	           <ul>
-                   <li>Using the custom Relativity API, Visual C#, and SQL, continued development on an application built on top of kCura’s flagship product Relativity that analyzes and processes 5,000 U.S. patent grants downloaded weekly from a custom Google site.</li>
-                   <li>Added features to the processing of such data that allows the user to sort the patents by over 400 patent classifications.</li>
-                   <li>Added components that processed assignment data for patent grants to keep the assignees/owners of patents up-to-date daily.</li>
-                   <li>Using the Espacenet REST API, added components that validate the patent based on its legal events.</li>
-	           </ul>
-	           <!-- Miss Possible -->
-	           <div class="floatCleared">
-		          <hr></hr>
-		          <p class="alignleft"><strong>Miss Possible</strong></p>
-		          <p class="alignright"><i>Urbana-Champaign, IL</i></p>
-	           </div>
-	           <div class="floatCleared">
-		          <p class="alignleft"><strong>Web Developer</strong></p>
-		          <p class="alignright"><i>Feb. 2014 - Present</i></p>
-	           </div>
-	           <br/><br/>
-	           <ul>
-		          <li>Developed and maintaining the website for Miss Possible (<a href="http://www.bemisspossible.com" target="_blank">http://www.bemisspossible.com</a>), a startup that is focused on empowering girls by providing them strong female role models through dolls as well as developing apps that let girls learn about these role models and do hands-on activities led by them.</li>
-		          <li>Assisted in using social media and other mediums to market Miss Possible’s <a href="https://www.indiegogo.com/projects/miss-possible-dolls-to-inspire-girls-across-generations">Indiegogo campaign</a> that raised $85,755.</li>
-	           </ul>
-	           <!-- P&G -->
-	           <div class="floatCleared">
-		          <hr></hr>
-		          <p class="alignleft"><strong>Procter &#38; Gamble</strong></p>
-		          <p class="alignright"><i>Cincinnati, OH</i></p>
-	           </div>
-	           <div class="floatCleared">
-		          <p class="alignleft"><strong>GBS-HRSS Information Technology Development Organization Intern</strong></p>
-		          <p class="alignright"><i>July 2013 - Aug. 2013</i></p>
-	           </div>
-	           <br/><br/>
-	           <ul>
-		          <li>Assisted in entering necessary data regarding enterprise architecture into the data repository MEGA.</li>
-		          <li>Prepared a training presentation regarding MEGA and its functions for team members. </li>
-		          <li>Assisted in the testing of an in-house application on various mobile operating systems and Internet browsers. </li>
-		          <li>Collated results from testing parts of P&#38;G Human Resources Services &#38; Solutions' Business Continuity Plan.</li>
-	           </ul>
-	           <!-- Paycor -->
-	           <div class="floatCleared">
-		          <hr></hr>
-		          <p class="alignleft"><strong>Paycor, Inc.</strong></p>
-		          <p class="alignright"><i>Cincinnati, OH</i></p>
-	           </div>
-	           <div class="floatCleared">
-		          <p class="alignleft"><strong>Information Technology Application Development Intern</strong></p>
-		          <p class="alignright"><i>June 2012 - Aug. 2012</i></p>
-	           </div>
-	           <br/><br/>
-	           <ul>
-		          <li> Designed the user interface for one of Paycor's in-house web applications using HTML and CSS.</li>
-		          <li>Analyzed video software options to help Paycor with offshore employees in Mumbai, India.</li>
-		          <li>Coordinated knowledge transfer documenetation with offshore employees in Mumbai, India.</li>
-		          <li>Developed a data-driven version of Paycor's training application using Microsoft .NET Visual C#.</li>
-	           </ul>
             </div>
             <div id="projects">
-                <div class="row">
-                    <div class="col-md-4">
-		              <h1>Miss Possible's Website</h1>
-		              <p>Designed the website for startup Miss Possible, who's goal is to develop dolls and apps that empower girls to dream big</p>
-		              <p>HTML, CSS, Javascript, PHP, MySQL</p>
-		              <button value="Learn More" class="btn btn-default"><a href="http://www.bemisspossible.com" target="_blank">Learn More</a></button>
-	               </div>
-	               <div class="col-md-4">
-		              <h1>Where's Waldo International</h1>
-		              <p>With 3 team members, created a game that sticks Waldo in a random location within the world and lets you find him</p>
-		              <p>HTML, CSS, Javascript, Google Maps API, Facebook API, Twitter API, Google Plus API, Tumblr API</p>
-		              <button value="Play Game" class="btn btn-default"><a href="http://web.engr.illinois.edu/~bifft2/" target="_blank">Play the Game</a></button>
-	               </div>
-	               <div class="col-md-4">
-		              <h1>WCS Sign-In App</h1>
-		              <p>Along with team members on WCS' Tech Team Committee, designed the front-end of a web application that tracks attendance at UIUC WCS' events and allows members to check their points</p>
-		              <p>HTML, CSS, Javascript, PHP, MySQL</p>
-		              <button value="Learn More" class="btn btn-default"><a href="http://wcssignin.web.engr.illinois.edu/" target="_blank">Learn More</a></button>
-	               </div>
-                </div>
-                <div class="row">
-	               <div class="col-md-4">
-		              <h1>Recourser</h1>
-		              <p>With 3 team members, created a web app that allows students to plan out what classes they want to take for each semester of college</p>
-		              <p>HTML, CSS, Javascript, jQuery, Python</p>
-		              <button value="Learn More" class="btn btn-default"><a href="http://recourser.herokuapp.com/" target="_blank">Learn More</a></button>
-	               </div>
-                </div>
             </div>
+            <div id="skills"></div>
+            <div id="follow"></div>
             <div id="contact">
                 <div class="row">
 	               <form role="form" method="POST" action="http://forms.brace.io/elchao96@gmail.com">
@@ -184,5 +82,10 @@
                 </div>
             </div>
         </div>
+        <!--scripts-->
+        <script src="assets/scripts/jquery-2.1.1.min.js" type="text/javascript"></script>
+        <script src="assets/scripts/site.js" type="text/javascript"></script>
+        <script src="assets/scripts/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+        <script src="assets/scripts/modernizr.js" type="text/javascript"></script>
     </body>
 </html>
