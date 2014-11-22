@@ -21,34 +21,10 @@ body
 	margin-bottom: 0;
 }
 
-/* Main Div Components */
-.jumbotron
+/* Contact */
+#socialMediaLinks 
 {
-	width: 100% !important;
-}
-.row
-{
-	margin: 2%;
-}
-.projectImg
-{
-	width: 100%;
-	margin: 0 auto;
-	height: inherit;
-	max-height: 490px;
-}
-.carousel-caption
-{
-	background-color: rgba(0, 0, 0, 0.75);
-	bottom: 0px;
-}
-.carousel-indicators
-{
-	bottom: 10px !important;
-}
-.carousel
-{
-	margin: 0 auto;
+    
 }
 
 /* Footer */
@@ -60,20 +36,6 @@ footer
 .push 
 {
 	height: 150px;
-}
-
-/* Text */
-.alignright
-{
-	float: right;
-}
-.alignleft
-{
-	float: left;
-}
-.floatCleared
-{
-	clear: both;
 }
 
 /* Colors */
