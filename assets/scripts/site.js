@@ -11,7 +11,3 @@ function scrollToID(id, speed) {
     var targetOffset = $(id).offset().top - offset;
     $('html,body').animate({scrollTop: targetOffset}, speed);
 }
-
-if (typeof console === "undefined") {
-    console = {log: funtion(){}};}
-}
