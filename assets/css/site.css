@@ -7,16 +7,19 @@ html
 }
 
 /* Major Divs */
+/***** WRAPPER *****/
 .wrapper
 {
 	width: 80%;
 	margin: 0 auto;
     margin-top: 50px;
 }
+/***** FILLER *****/
 #filler
 {
     height: 30px;
 }
+/***** HOME *****/
 #home
 {
     background-image: url('../images/background.jpg');
@@ -34,9 +37,15 @@ html
 }
 #arrowDown i
 {
-    bottom: 5%;
+    bottom: 10%;
     position: absolute;
-    vertical-align: middle;
+    margin: 0 auto;
+}
+/***** ABOUT *****/
+/***** EDUCATION *****/
+.col-md-3>p>img
+{
+    width: 80%;
 }
 
 /* Navigation Bar */
@@ -74,6 +83,14 @@ footer
 .main-purple
 {
 	color: #522B72;
+}
+.secondary-purple
+{
+    color: #7F2A68;
+}
+.secondary-green
+{
+    color: #5F7914;
 }
 
 /* Custom Fonts */
