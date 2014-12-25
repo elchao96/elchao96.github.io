@@ -4,6 +4,17 @@ $(document).ready(function() {
         var sectionID = $(this).attr("data-id");
         scrollToID('#' + sectionID, 750);
     });
+    
+    $(window).scroll(function() {
+        var objDistance = $('#home').height();
+        var myDistance = $(window).scrollTop();
+        if (myDistance >= objDistance) {
+            $('.navbar').addClass('navbar-fixed-top');
+        }
+        else {
+            $('.navbar').removeClass('navbar-fixed-top');
+        }
+    });
 });
 
 function scrollToID(id, speed) {

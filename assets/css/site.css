@@ -13,6 +13,10 @@ html
 	margin: 0 auto;
     margin-top: 50px;
 }
+#filler
+{
+    height: 30px;
+}
 #home
 {
     background-image: url('../images/background.jpg');
@@ -20,10 +24,9 @@ html
     background-size: cover;
     background-position: center;
     width: 100% !important;
-    height: 95vh !important;
-    min-height: 95vh !important;
+    height: 100vh !important;
+    min-height: 100vh !important;
     min-width: 100% !important;
-    margin-top: 50px;
 }
 #homeText
 {
@@ -41,7 +44,7 @@ html
 {
     padding: 0 10% 0 10% !important;
 }
-
+    
 /* Contact */
 #socialMediaLinks 
 {
