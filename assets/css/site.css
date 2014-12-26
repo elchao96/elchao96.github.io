@@ -6,6 +6,24 @@ html
     overflow-x: hidden;
 }
 
+/* Text Elements */
+h1
+{
+    font-family: 'ralewaymedium', 'Helvetica Neue', 'Open Sans', sans-serif !important;
+}
+h2
+{
+    font-family: 'ralewayregular', 'Helvetica Neue', 'Open Sans', sans-serif !important;
+}
+h4
+{
+    font-family: 'ralewaythin', 'Helvetica Neue', 'Open Sans', sans-serif !important;
+}
+p
+{
+    font-family: 'ralewayregular', 'Helvetica Neue', 'Open Sans', sans-serif !important;
+}
+
 /* Major Divs */
 /***** WRAPPER *****/
 .wrapper
@@ -51,7 +69,7 @@ html
 .companyName
 {
     text-align: center;
-    font-family: 'latobold';
+    font-family: 'latosemibold', 'Open Sans', sans-serif !important;
 }
 .companyDiv
 {
