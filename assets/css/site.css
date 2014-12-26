@@ -5,6 +5,10 @@ html
     height: 100%;
     overflow-x: hidden;
 }
+body
+{
+    font-family: 'latoregular', 'Helvetica Neue', 'Open Sans', sans-serif !important;
+}
 
 /* Text Elements */
 h1
@@ -21,10 +25,20 @@ h4
 }
 p
 {
-    font-family: 'ralewayregular', 'Helvetica Neue', 'Open Sans', sans-serif !important;
+    font-family: 'latoregular', 'Helvetica Neue', 'Open Sans', sans-serif !important;
+}
+
+/* Button Elements */
+.btn
+{
+    border-radius: 20px !important;
 }
 
 /* Major Divs */
+.sectionTitle
+{
+    text-transform: uppercase
+}
 /***** WRAPPER *****/
 .wrapper
 {
@@ -69,7 +83,7 @@ p
 .companyName
 {
     text-align: center;
-    font-family: 'latosemibold', 'Open Sans', sans-serif !important;
+    font-family: 'ralewayregular', 'Open Sans', sans-serif !important;
 }
 .companyDiv
 {
@@ -116,6 +130,10 @@ p
 .container-fluid
 {
     padding: 0 10% 0 10% !important;
+}
+.navbar-nav>li
+{
+    text-transform: uppercase
 }
 
 /* Footer */
