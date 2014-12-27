@@ -188,24 +188,6 @@ footer
 	height: 100px;
 }
 
-/* Colors */
-.main-yellow 
-{
-	color: #FFFB00;
-}
-.main-purple
-{
-	color: #522B72;
-}
-.secondary-purple
-{
-    color: #7F2A68;
-}
-.secondary-green
-{
-    color: #5F7914;
-}
-
 /* Custom Fonts */
 /***** LATO *****/
 @font-face 
