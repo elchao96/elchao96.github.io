@@ -78,6 +78,8 @@ p
 .col-md-3>p>img
 {
     width: 80%;
+    display: inline-block;
+    margin: auto;
 }
 /***** EXPERIENCE *****/
 .companyName
@@ -85,7 +87,7 @@ p
     text-align: center;
     font-family: 'ralewayregular', 'Open Sans', sans-serif !important;
 }
-.companyDiv
+.companyDiv, .projectDiv
 {
     display: -webkit-flexbox;
     display: -ms-flexbox;
@@ -140,12 +142,12 @@ p
 footer
 {
 	padding: 10px;
-	height: 60px;
-    background-color: #522B72;
+	height: 100px;
+    background-color: #5F7914;
 }
 .push 
 {
-	height: 60px;
+	height: 100px;
 }
 
 /* Colors */
