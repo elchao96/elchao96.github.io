@@ -127,6 +127,14 @@ p
     font-family: 'clarendonbold';
     font-size: 2em;
 }
+#nameForm
+{
+    padding-left: 0 !important;
+}
+#emailForm
+{
+    padding-right: 0 !important;
+}
 
 /* Navigation Bar */
 .container-fluid
