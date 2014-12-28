@@ -12,9 +12,9 @@
 		<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
         
         <!--stylesheets-->
-        <link rel="stylesheet" href="assets/css/site.css"/>
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="assets/css/site.css" />
+        <link rel="stylesheet" href="assets/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/bower_components/fontawesome/css/font-awesome.min.css" />
     </head>
     <body>
         <header>
@@ -204,45 +204,61 @@
             </div>
             <div id="skills">
                 <h1 class="sectionTitle" align="center">Skills</h1>
-                <div class="row">
-                    <div class="col-md-3">
-                        <h2>Front-End</h2>
-                        <ul class="skillsList">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Javascript</li>
-                            <li>jQuery</li>
-                            <li>WordPress</li>
-                            <li>KnockoutJS</li>
-                            <li>AngularJS</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <h2>Back-end, Platforms</h2>
-                        <ul class="skillsList">
-                            <li>ASP.NET MVC</li>
-                            <li>PHP</li>
-                            <li>SQL</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <h2>Programming Languages</h2>
-                        <ul class="skillsList">
-                            <li>C#</li>
-                            <li>Java</li>
-                            <li>C++</li>
-                            <li>Python</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <h2>Design</h2>
-                        <ul class="skillsList">
-                            <li>Photoshop</li>
-                            <li>Illustrator</li>
-                            <li>InDesign</li>
-                        </ul>
-                    </div>
-                </div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Technical Skill</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Front-End</td>
+                            <td>
+                                <ul class="skillsList">
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Javascript</li>
+                                    <li>jQuery</li>
+                                    <li>WordPress</li>
+                                    <li>KnockoutJS</li>
+                                    <li>AngularJS</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Back-end, Platforms</td>
+                            <td>
+                                <ul class="skillsList">
+                                    <li>ASP.NET MVC</li>
+                                    <li>PHP</li>
+                                    <li>SQL</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Programming Languages</td>
+                            <td>
+                                <ul class="skillsList">
+                                    <li>C#</li>
+                                    <li>Java</li>
+                                    <li>C++</li>
+                                    <li>Python</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Design</td>
+                            <td>
+                                <ul class="skillsList">
+                                    <li>Photoshop</li>
+                                    <li>Illustrator</li>
+                                    <li>InDesign</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
             <div id="contact">
                 <h1 class="sectionTitle" align="center">Contact Me</h1>
@@ -279,8 +295,8 @@
         </footer>
     </body>
     <!--scripts-->
-    <script src="assets/scripts/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <script src="assets/bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
     <script src="assets/scripts/site.js" type="text/javascript"></script>
-    <script src="assets/scripts/bootstrap/bootstrap.min.js" type="text/javascript"></script>
-    <script src="assets/scripts/modernizr.js" type="text/javascript"></script>
+    <script src="assets/bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/bower_components/modernizr/modernizr.js" type="text/javascript"></script>
 </html>

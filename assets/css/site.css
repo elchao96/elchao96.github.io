@@ -99,6 +99,31 @@ p
     align-items: center;
     justify-content: center;
 }
+/***** PROJECTS *****/
+/***** SKILLS *****/
+.skillsList
+{
+    display: block;
+    padding-left: 0px;
+}
+.skillsList li
+{
+    display: inline;
+    margin: 10px;
+}
+.advanced
+{
+    color: #0F434F;
+}
+.proficient
+{
+    color: #621046;
+}
+.basic
+{
+    color: #271758;
+}
+
 /***** CONTACT *****/
 #socialMediaDiv
 {
