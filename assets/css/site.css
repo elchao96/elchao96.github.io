@@ -101,6 +101,16 @@ p
 }
 /***** PROJECTS *****/
 /***** SKILLS *****/
+#skillLevelLegend
+{
+    display: block;
+    margin: 0 auto;
+}
+#skillLevelLegend li
+{
+    display: inline;
+    margin: 10px;
+}
 .skillsList
 {
     display: block;
@@ -113,7 +123,7 @@ p
 }
 .advanced
 {
-    color: #0F434F;
+    color: #255C69;
 }
 .proficient
 {
@@ -121,7 +131,7 @@ p
 }
 .basic
 {
-    color: #271758;
+    color: #413075;
 }
 
 /***** CONTACT *****/
