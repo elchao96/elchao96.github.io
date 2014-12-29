@@ -57,7 +57,8 @@ p
     background-image: url('../images/background.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: 50% 50%;
+    background-attachment: fixed;
     width: 100% !important;
     height: 100vh !important;
     min-height: 100vh !important;
@@ -169,6 +170,10 @@ p
 #emailForm
 {
     padding-right: 0 !important;
+}
+#nameInput, #emailInput, #messageInput
+{
+    border-radius: 20px !important;
 }
 
 /* Navigation Bar */
