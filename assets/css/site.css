@@ -136,27 +136,10 @@ p
 }
 
 /***** CONTACT *****/
-#socialMediaDiv
+form
 {
-    display: -webkit-flexbox;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-    justify-content: center;
-}
-#socialMediaLinks 
-{
-    display: block;
-    padding-left: 0px;
-}
-#socialMediaLinks li
-{
-    display: inline;
-    margin: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 #mediumIcon
 {
@@ -225,6 +208,28 @@ footer
 .push 
 {
 	height: 100px;
+}
+#socialMediaDiv
+{
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+#socialMediaLinks 
+{
+    display: block;
+    padding-left: 0px;
+}
+#socialMediaLinks li
+{
+    display: inline;
+    margin: 10px;
 }
 
 /* Custom Fonts */

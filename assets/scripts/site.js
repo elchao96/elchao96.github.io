@@ -6,14 +6,16 @@ $(document).ready(function() {
     });
     
     $(window).scroll(function() {
-        var objDistance = $('#home').height();
-        var myDistance = $(window).scrollTop();
-        if (myDistance >= objDistance) {
+        var homeDistance = $('#home').height();
+        var windowDistance = $(window).scrollTop();
+        if (windowDistance >= homeDistance) {
             $('.navbar').addClass('navbar-fixed-top');
         }
         else {
             $('.navbar').removeClass('navbar-fixed-top');
         }
+        
+        
     });
 });
 
