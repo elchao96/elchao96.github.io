@@ -1,10 +1,4 @@
 $(document).ready(function() {
-    $('.scroll-link').on('click', function(event) {
-        event.preventDefault();
-        var sectionID = $(this).attr("data-id");
-        scrollToID('#' + sectionID, 750);
-    });
-    
     $(window).scroll(function() {
         var homeDistance = $('#home').height();
         var windowDistance = $(window).scrollTop();
@@ -16,15 +10,12 @@ $(document).ready(function() {
         }
     });
     
-    var liChildren = $("#navLinkList").children();
-    var aChildren = [];
-    for (i = 0; i < liChildren.length; i++) {
-        var as = liChildren[i].children();
-        aChildren.push(as);
-    }
+    var aChildren = $(".menuItem").children();
     var aArray = [];
     for (i = 0; i < aChildren.length; i++) {
-        aArray.push(aChildren[i].attr('data-id'));
+        var aChild = aChildren[i];
+        var ahref = $(aChild).attr('data-id');
+        aArray.push(ahref);
     }
     
     $(window).scroll(function() {
@@ -34,22 +25,30 @@ $(document).ready(function() {
         
         for (i = 0; i < aArray.length; i++) {
             var theID = aArray[i];
-            var divPosition = $(theID).offset().top;
-            var divHeight = $(theID).height();
-            if (windowPosition >= divPosition && windowPosition < (divPosition + divHeight)) {
+            var divPosition = $('#' + theID).offset().top;
+            var divHeight = $('#' + theID).height();
+            var currentURL = window.location.href;
+            if (currentURL.indexOf(theID) > -1) {
                 $("a[data-id='" + theID + "']").addClass('navActiveLink');
             }
-            else
-            {
+            else if (windowPosition >= divPosition && windowPosition < (divPosition + divHeight) && currentURL.indexOf("#") < 0) {
+                $("a[data-id='" + theID + "']").addClass('navActiveLink');
+            }
+            else {
                 $("a[data-id='" + theID + "']").removeClass('navActiveLink');
             }
         }
-        
-        if(windowPosition + windowHeight == documentHeight) {
-            if (!$("nav li:last-child a").hasClass("navActiveLink")) {
-                var navActiveCurrent = $(".navActiveLink").attr("data-id");
-                $("a[data-id='" + navActiveCurrent + "']").removeClass("navActiveLink");
-                $("nav li:last-child a").addClass("navActiveLink");
+    });
+    
+    $('.scroll-link').on('click', function(event) {
+        event.preventDefault();
+        var sectionID = $(this).attr("data-id");
+        scrollToID('#' + sectionID, 750);
+        $("a[data-id='" + theID + "']").addClass('navActiveLink');
+        for (i = 0; i < aArray.length; i++) {
+            var theID = aArray[i];
+            if (theID !== sectionID && $("a[data-id='" + theID + "']").hasClass('navActiveLink')) {
+                $("a[data-id='" + theID + "']").removeClass('navActiveLink');
             }
         }
     });
