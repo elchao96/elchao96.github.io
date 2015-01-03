@@ -31,7 +31,7 @@ $(document).ready(function() {
             if (currentURL.indexOf(theID) > -1) {
                 $("a[data-id='" + theID + "']").addClass('navActiveLink');
             }
-            else if (windowPosition >= divPosition && windowPosition < (divPosition + divHeight) && currentURL.indexOf("#") < 0) {
+            else if (windowPosition + 50 >= divPosition && windowPosition + 50 < (divPosition + divHeight) && currentURL.indexOf("#") < 0) {
                 $("a[data-id='" + theID + "']").addClass('navActiveLink');
             }
             else {

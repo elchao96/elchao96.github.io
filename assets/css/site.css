@@ -191,11 +191,12 @@ form
 {
     text-align: center;
 }
-.navbar-nav>li>a active, a.navActiveLink
+.navbar-nav>li>a:hover, .navbar-nav>li>a:active, a.navActiveLink
 {
     color: #5F7914 !important;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) 
+{
     .navbar-header
     {
         display: none;
