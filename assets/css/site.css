@@ -7,25 +7,28 @@ html
 }
 body
 {
-    font-family: 'latoregular', 'Helvetica Neue', 'Open Sans', sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 /* Text Elements */
 h1
 {
-    font-family: 'ralewaymedium', 'Helvetica Neue', 'Open Sans', sans-serif !important;
+    font-family: 'Raleway', 'Helvetica Neue', 'Open Sans', sans-serif !important;
+    font-weight: 500;
 }
 h2
 {
-    font-family: 'ralewayregular', 'Helvetica Neue', 'Open Sans', sans-serif !important;
+    font-family: 'Raleway', 'Helvetica Neue', 'Open Sans', sans-serif !important;
+    font-weight: 400;
 }
 h4
 {
-    font-family: 'ralewaythin', 'Helvetica Neue', 'Open Sans', sans-serif !important;
+    font-family: 'Raleway', 'Helvetica Neue', 'Open Sans', sans-serif !important;
+    font-weight: 300;
 }
 p
 {
-    font-family: 'latoregular', 'Helvetica Neue', 'Open Sans', sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 /* Button Elements */
@@ -37,7 +40,7 @@ p
 /* Major Divs */
 .sectionTitle
 {
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 /***** WRAPPER *****/
 .wrapper
@@ -68,6 +71,12 @@ p
 {
     padding-top: 10%;
 }
+#homeText h1
+{
+    font-size: 7em;
+    font-family: 'Lato' !important;
+    font-weight: 400;
+}
 #arrowDown i
 {
     bottom: 10%;
@@ -85,7 +94,8 @@ p
 .companyName
 {
     text-align: center;
-    font-family: 'ralewayregular', 'Open Sans', sans-serif !important;
+    font-family: 'Raleway', 'Open Sans', sans-serif !important;
+    font-weight: 400;
 }
 .companyDiv, .projectDiv
 {
@@ -237,236 +247,6 @@ footer
 }
 
 /* Custom Fonts */
-/***** LATO *****/
-@font-face 
-{
-    font-family: 'latobold';
-    src: url('../fonts/Lato/lato-bold-webfont.eot');
-    src: url('../fonts/Lato/lato-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Lato/lato-bold-webfont.woff2') format('woff2'),
-         url('../fonts/Lato/lato-bold-webfont.woff') format('woff'),
-         url('../fonts/Lato/lato-bold-webfont.ttf') format('truetype'),
-         url('../fonts/Lato/lato-bold-webfont.svg#latobold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face 
-{
-    font-family: 'latoitalic';
-    src: url('../fonts/Lato/lato-italic-webfont.eot');
-    src: url('../fonts/Lato/lato-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Lato/lato-italic-webfont.woff2') format('woff2'),
-         url('../fonts/Lato/lato-italic-webfont.woff') format('woff'),
-         url('../fonts/Lato/lato-italic-webfont.ttf') format('truetype'),
-         url('../fonts/Lato/lato-italic-webfont.svg#latoitalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face 
-{
-    font-family: 'latohairline';
-    src: url('../fonts/Lato/lato-hairline-webfont.eot');
-    src: url('../fonts/Lato/lato-hairline-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Lato/lato-hairline-webfont.woff2') format('woff2'),
-         url('../fonts/Lato/lato-hairline-webfont.woff') format('woff'),
-         url('../fonts/Lato/lato-hairline-webfont.ttf') format('truetype'),
-         url('../fonts/Lato/lato-hairline-webfont.svg#latohairline') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face 
-{
-    font-family: 'latobold_italic';
-    src: url('../fonts/Lato/lato-bolditalic-webfont.eot');
-    src: url('../fonts/Lato/lato-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Lato/lato-bolditalic-webfont.woff2') format('woff2'),
-         url('../fonts/Lato/lato-bolditalic-webfont.woff') format('woff'),
-         url('../fonts/Lato/lato-bolditalic-webfont.ttf') format('truetype'),
-         url('../fonts/Lato/lato-bolditalic-webfont.svg#latobold_italic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face 
-{
-    font-family: 'latoblack';
-    src: url('../fonts/Lato/lato-black-webfont.eot');
-    src: url('../fonts/Lato/lato-black-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Lato/lato-black-webfont.woff2') format('woff2'),
-         url('../fonts/Lato/lato-black-webfont.woff') format('woff'),
-         url('../fonts/Lato/lato-black-webfont.ttf') format('truetype'),
-         url('../fonts/Lato/lato-black-webfont.svg#latoblack') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face 
-{
-    font-family: 'latolight_italic';
-    src: url('../fonts/Lato/lato-lightitalic-webfont.eot');
-    src: url('../fonts/Lato/lato-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Lato/lato-lightitalic-webfont.woff2') format('woff2'),
-         url('../fonts/Lato/lato-lightitalic-webfont.woff') format('woff'),
-         url('../fonts/Lato/lato-lightitalic-webfont.ttf') format('truetype'),
-         url('../fonts/Lato/lato-lightitalic-webfont.svg#latolight_italic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face 
-{
-    font-family: 'latohairline_italic';
-    src: url('../fonts/Lato/lato-hairlineitalic-webfont.eot');
-    src: url('../fonts/Lato/lato-hairlineitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Lato/lato-hairlineitalic-webfont.woff2') format('woff2'),
-         url('../fonts/Lato/lato-hairlineitalic-webfont.woff') format('woff'),
-         url('../fonts/Lato/lato-hairlineitalic-webfont.ttf') format('truetype'),
-         url('../fonts/Lato/lato-hairlineitalic-webfont.svg#latohairline_italic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face 
-{
-    font-family: 'latoregular';
-    src: url('../fonts/Lato/lato-regular-webfont.eot');
-    src: url('../fonts/Lato/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Lato/lato-regular-webfont.woff2') format('woff2'),
-         url('../fonts/Lato/lato-regular-webfont.woff') format('woff'),
-         url('../fonts/Lato/lato-regular-webfont.ttf') format('truetype'),
-         url('../fonts/Lato/lato-regular-webfont.svg#latoregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face 
-{
-    font-family: 'latoblack_italic';
-    src: url('../fonts/Lato/lato-blackitalic-webfont.eot');
-    src: url('../fonts/Lato/lato-blackitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Lato/lato-blackitalic-webfont.woff2') format('woff2'),
-         url('../fonts/Lato/lato-blackitalic-webfont.woff') format('woff'),
-         url('../fonts/Lato/lato-blackitalic-webfont.ttf') format('truetype'),
-         url('../fonts/Lato/lato-blackitalic-webfont.svg#latoblack_italic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face 
-{
-    font-family: 'latolight';
-    src: url('../fonts/Lato/lato-light-webfont.eot');
-    src: url('../fonts/Lato/lato-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Lato/lato-light-webfont.woff2') format('woff2'),
-         url('../fonts/Lato/lato-light-webfont.woff') format('woff'),
-         url('../fonts/Lato/lato-light-webfont.ttf') format('truetype'),
-         url('../fonts/Lato/lato-light-webfont.svg#latolight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-/***** RALEWAY *****/
-@font-face 
-{
-    font-family: 'ralewayextrabold';
-    src: url('../fonts/Raleway/raleway-extrabold-webfont.eot');
-    src: url('../fonts/Raleway/raleway-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Raleway/raleway-extrabold-webfont.woff2') format('woff2'),
-         url('../fonts/Raleway/raleway-extrabold-webfont.woff') format('woff'),
-         url('../fonts/Raleway/raleway-extrabold-webfont.ttf') format('truetype'),
-         url('../fonts/Raleway/raleway-extrabold-webfont.svg#ralewayextrabold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face 
-{
-    font-family: 'ralewaymedium';
-    src: url('../fonts/Raleway/raleway-medium-webfont.eot');
-    src: url('../fonts/Raleway/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Raleway/raleway-medium-webfont.woff2') format('woff2'),
-         url('../fonts/Raleway/raleway-medium-webfont.woff') format('woff'),
-         url('../fonts/Raleway/raleway-medium-webfont.ttf') format('truetype'),
-         url('../fonts/Raleway/raleway-medium-webfont.svg#ralewaymedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face 
-{
-    font-family: 'ralewayextralight';
-    src: url('../fonts/Raleway/raleway-extralight-webfont.eot');
-    src: url('../fonts/Raleway/raleway-extralight-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Raleway/raleway-extralight-webfont.woff2') format('woff2'),
-         url('../fonts/Raleway/raleway-extralight-webfont.woff') format('woff'),
-         url('../fonts/Raleway/raleway-extralight-webfont.ttf') format('truetype'),
-         url('../fonts/Raleway/raleway-extralight-webfont.svg#ralewayextralight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face 
-{
-    font-family: 'ralewaybold';
-    src: url('../fonts/Raleway/raleway-bold-webfont.eot');
-    src: url('../fonts/Raleway/raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Raleway/raleway-bold-webfont.woff2') format('woff2'),
-         url('../fonts/Raleway/raleway-bold-webfont.woff') format('woff'),
-         url('../fonts/Raleway/raleway-bold-webfont.ttf') format('truetype'),
-         url('../fonts/Raleway/raleway-bold-webfont.svg#ralewaybold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face 
-{
-    font-family: 'ralewayheavy';
-    src: url('../fonts/Raleway/raleway-heavy-webfont.eot');
-    src: url('../fonts/Raleway/raleway-heavy-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Raleway/raleway-heavy-webfont.woff2') format('woff2'),
-         url('../fonts/Raleway/raleway-heavy-webfont.woff') format('woff'),
-         url('../fonts/Raleway/raleway-heavy-webfont.ttf') format('truetype'),
-         url('../fonts/Raleway/raleway-heavy-webfont.svg#ralewayheavy') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face 
-{
-    font-family: 'ralewaylight';
-    src: url('../fonts/Raleway/raleway-light-webfont.eot');
-    src: url('../fonts/Raleway/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Raleway/raleway-light-webfont.woff2') format('woff2'),
-         url('../fonts/Raleway/raleway-light-webfont.woff') format('woff'),
-         url('../fonts/Raleway/raleway-light-webfont.ttf') format('truetype'),
-         url('../fonts/Raleway/raleway-light-webfont.svg#ralewaylight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face 
-{
-    font-family: 'ralewaythin';
-    src: url('../fonts/Raleway/raleway-thin-webfont.eot');
-    src: url('../fonts/Raleway/raleway-thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Raleway/raleway-thin-webfont.woff2') format('woff2'),
-         url('../fonts/Raleway/raleway-thin-webfont.woff') format('woff'),
-         url('../fonts/Raleway/raleway-thin-webfont.ttf') format('truetype'),
-         url('../fonts/Raleway/raleway-thin-webfont.svg#ralewaythin') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face 
-{
-    font-family: 'ralewayregular';
-    src: url('../fonts/Raleway/raleway-regular-webfont.eot');
-    src: url('../fonts/Raleway/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Raleway/raleway-regular-webfont.woff2') format('woff2'),
-         url('../fonts/Raleway/raleway-regular-webfont.woff') format('woff'),
-         url('../fonts/Raleway/raleway-regular-webfont.ttf') format('truetype'),
-         url('../fonts/Raleway/raleway-regular-webfont.svg#ralewayregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face 
-{
-    font-family: 'ralewaysemibold';
-    src: url('../fonts/Raleway/raleway-semibold-webfont.eot');
-    src: url('../fonts/Raleway/raleway-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Raleway/raleway-semibold-webfont.woff2') format('woff2'),
-         url('../fonts/Raleway/raleway-semibold-webfont.woff') format('woff'),
-         url('../fonts/Raleway/raleway-semibold-webfont.ttf') format('truetype'),
-         url('../fonts/Raleway/raleway-semibold-webfont.svg#ralewaysemibold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 @font-face
 {
     font-family: 'clarendonbold';
