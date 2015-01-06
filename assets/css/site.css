@@ -77,6 +77,10 @@ button:hover
 {
     text-transform: uppercase;
 }
+.mainDiv
+{
+    margin: 50px;
+}
 
 /***** WRAPPER *****/
 .wrapper
@@ -89,7 +93,7 @@ button:hover
 /***** FILLER *****/
 #filler
 {
-    height: 30px;
+    height: 10px;
 }
 
 /***** HOME *****/
@@ -152,6 +156,7 @@ button:hover
 }
 
 /***** PROJECTS *****/
+
 /***** SKILLS *****/
 #skillLevelLegend
 {
@@ -197,20 +202,40 @@ form
     font-family: 'clarendonbold', sans-serif;
     font-size: 2em;
 }
-#nameForm
-{
-    padding-left: 0 !important;
-}
-#emailForm
-{
-    padding-right: 0 !important;
-}
 #nameInput, #emailInput, #messageInput
 {
     border-radius: 20px !important;
 }
+@media screen and (min-width: 768px) 
+{
+    #nameForm
+    {
+        padding-left: 0 !important;
+    }
+    #emailForm
+    {
+        padding-right: 0 !important;
+    }
+}
+@media (max-width: 768px)
+{
+    #nameForm
+    {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    #emailForm
+    {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
 
 /* Navigation Bar */
+.navbar-brand
+{
+    color: #413075 !important;
+}
 .container-fluid
 {
     padding: 0 10% 0 10% !important;
@@ -261,7 +286,7 @@ footer
 {
 	padding: 10px;
 	height: 100px;
-    background-color: #5F7914;
+    background-color: #255C69;
 }
 .push 
 {
