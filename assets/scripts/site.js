@@ -31,7 +31,7 @@ $(document).ready(function() {
             if (currentURL.indexOf(theID) > -1) {
                 $("a[data-id='" + theID + "']").addClass('navActiveLink');
             }
-            else if (windowPosition + 50 >= divPosition && windowPosition + 50 < (divPosition + divHeight) && currentURL.indexOf("#") < 0) {
+            else if (windowPosition + 70 >= divPosition && windowPosition + 70 < (divPosition + divHeight) && currentURL.indexOf("#") < 0) {
                 $("a[data-id='" + theID + "']").addClass('navActiveLink');
             }
             else {
@@ -55,7 +55,7 @@ $(document).ready(function() {
 });
 
 function scrollToID(id, speed) {
-    var offset = 50; 
+    var offset = 70; 
     var targetOffset = $(id).offset().top - offset;
     $('html,body').animate({scrollTop: targetOffset}, speed);
 }
