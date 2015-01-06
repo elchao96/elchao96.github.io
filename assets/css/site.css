@@ -243,7 +243,7 @@ form
 {
     text-align: center;
 }
-.navbar-nav>li>a:hover, .navbar-nav>li>a:active, a.navActiveLink
+.navbar-nav>li>a:active, a.navActiveLink
 {
     color: #5F7914 !important;
     background-color: #413075 !important;
