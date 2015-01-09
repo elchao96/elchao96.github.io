@@ -18,15 +18,15 @@ avatar: ../assets/images/favicon.png
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble: 
-  email: 
+  email: elchao96 [at] gmail [dot] com
   facebook: 
   flickr: 
-  github: barryclark/jekyll-now
+  github: github.com/elchao96
   instagram: 
-  linkedin: 
+  linkedin: linkedin.com/in/elchao96
   pinterest: 
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter: jekyllrb
+  twitter: emilychaosays
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
 
 # Your disqus shortname, entering this will enable commenting on posts
@@ -43,7 +43,7 @@ url: http://emilychao.me
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
+baseurl: "/blog"
 #
 # !! You don't need to change any of the configuration flags below !!
 #
