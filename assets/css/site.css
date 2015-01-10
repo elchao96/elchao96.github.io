@@ -232,6 +232,10 @@ form
 }
 
 /* Navigation Bar */
+.navbar-default
+{
+    border: none !important;
+}
 .navbar-brand
 {
     color: #413075 !important;
