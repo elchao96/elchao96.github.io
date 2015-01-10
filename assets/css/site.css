@@ -71,6 +71,10 @@ button:hover
 {
     background-color: #271758 !important;
 }
+#resumeButton
+{
+    color: white !important;
+}
 
 /* Major Divs */
 .sectionTitle
