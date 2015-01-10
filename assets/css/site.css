@@ -36,7 +36,7 @@ a
 }
 a:hover
 {
-    color: #271758 !important;
+    color: #14073A !important;
 }
 
 /* Text Elements */
@@ -85,9 +85,11 @@ button:hover
 /***** WRAPPER *****/
 .wrapper
 {
-	width: 80%;
+	width: 100%;
+    padding: 50px 10% 0 10%;
 	margin: 0 auto;
-    margin-top: 50px;
+    /*margin-top: 50px;*/
+    background-color: #887BAF;
 }
 
 /***** FILLER *****/
@@ -243,7 +245,7 @@ form
 .container-fluid
 {
     padding: 0 10% 0 10% !important;
-    background-color: #A45287;
+    background-color: #832C65;
 }
 .navbar-nav
 {
@@ -258,9 +260,14 @@ form
     float: none;
     display: inline;
 }
+.navbar-nav>li>a
+{
+    color: white !important;
+}
 .navbar
 {
     text-align: center;
+    margin-bottom: 0px !important;
 }
 .navbar .navbar-nav 
 {
@@ -292,9 +299,14 @@ footer
 	height: 100px;
     background-color: #255C69;
 }
-.push 
+footer p
+{
+    color: white;
+}
+#push 
 {
 	height: 100px;
+    background-color: #887BAF !important;
 }
 #socialMediaDiv
 {
@@ -317,6 +329,10 @@ footer
 {
     display: inline;
     margin: 10px;
+}
+#socialMediaLinks>li>a
+{
+    color: #832C65 !important;
 }
 
 /* Custom Fonts */
