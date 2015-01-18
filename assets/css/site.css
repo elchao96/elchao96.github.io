@@ -96,6 +96,14 @@ button:hover
     background-color: #C583AE;
 }
 
+@media (max-width: 768px)
+{
+    .wrapper
+    {
+        padding: 50px 0px 50px 0px;
+    }
+}
+
 /***** FILLER *****/
 #filler
 {
