@@ -1,0 +1,16 @@
+.form-control {
+	font-family: $raleway;
+}
+
+.form-group label {
+	font-family: $raleway;
+}
+
+.btn-primary {
+	font-family: $lato;
+	background-color: $color-primary-0;
+	border-color: $color-primary-4;
+	&:hover {
+		background-color: $color-primary-4;
+	}
+}

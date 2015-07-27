@@ -1,0 +1,11 @@
+.label-info {
+	@extend .experience;
+}
+
+.label-success {
+	@extend .project;
+}
+
+.label-primary {
+	@extend .extracurricular;
+}
