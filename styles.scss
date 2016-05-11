@@ -1,0 +1,21 @@
+$purple: #512DA8;
+
+.column img {
+    width: 100%;
+}
+
+.slick-arrow {
+    color: $purple !important;
+}
+
+.slick-next:before, .slick-prev:before {
+    color: $purple;
+}
+
+.slick-next:after, .slick-prev:after {
+    color: $purple;
+}
+
+.project-title {
+    height: 300px;
+}

@@ -8,8 +8,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>Emily Chao</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" type="text/css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="styles.css"/>
+
 </head>
 <body>
-	<div id="main"></div>
+	<script type="text/x-mustache" id="social-media-template">
+		{{#social}}
+		<a href="{{url}}" target="_blank"><i class="fa fa-3x fa-{{fa-icon}}"></i></a>
+		{{/social}}
+	</script>
+	<script type="text/x-mustache" id="project-template">
+		{{#projects}}
+		<div class="row">
+			<div class="twelve column project-title">
+				<h4 align="center">{{title}}</h4>
+			</div>
+		</div>
+		{{/projects}}
+	</script>
+	<div class="container">
+		<div class="row">
+			<div class="one-third column">
+				<h1>Emily Chao</h1>
+				<img id="profile" src="profile.jpg"></img>
+				<div id="social-media"></div>
+			</div>
+			<div class="two-thirds column">
+				<div class="container">
+					<div class="projects"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+	<script src="scripts.js"></script>
 </body>
 </html>

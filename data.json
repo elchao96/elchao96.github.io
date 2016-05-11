@@ -1,124 +1,101 @@
 {
-    "name": "Me",
-    "children": [
+    "projects": [
         {
-            "name": "Projects",
-            "children": [
-                {
-                    "name": "School",
-                    "children": [
-                        {
-                            "name": "Symphonic Stocks"
-                        },
-                        {
-                            "name": "Campus Journeys"
-                        },
-                        {
-                            "name": "We the People"
-                        },
-                        {
-                            "name": "Game of Debates"
-                        },
-                        {
-                            "name": "Award Wizard"
-                        },
-                        {
-                            "name": "LAPv2"
-                        },
-                        {
-                            "name": "QueerSpeaks"
-                        }
-                    ]
-                },
-                {
-                    "name": "Hackathon",
-                    "children": [
-                        {
-                            "name": "LAPv1"
-                        },
-                        {
-                            "name": "TeamSidewalk"
-                        }
-                    ]
-                },
-                {
-                    "name": "Extracurriculars/On the Side",
-                    "children": [
-                        {
-                            "name": "WCS Website"
-                        },
-                        {
-                            "name": "Outreach Workshops"
-                        }
-                    ]
-                }
-            ]
+            "title": "Symphonic Stocks"
         },
         {
-            "name": "Experience",
-            "children": [
-                {
-                    "position": "IT Application Development Intern",
-                    "name": "Paycor, Inc.",
-                    "years": "Summer 2012"
-                },
-                {
-                    "position": "GBS HRSS-ITDO Intern",
-                    "name": "Procter & Gamble",
-                    "years": "Summer 2013"
-                },
-                {
-                    "position": "Software Engineering Intern",
-                    "name": "kCura",
-                    "years": "Summer 2014"
-                },
-                {
-                    "position": "System Intern",
-                    "name": "The Dow Chemical Company",
-                    "years": "School Year 2014-2015"
-                },
-                {
-                    "position": "Software Engineering Intern",
-                    "name": "Intuit",
-                    "years": "Summer 2015"
-                },
-                {
-                    "position": "Engineering 100 Learning Assistant",
-                    "name": "University of Illinois at Urbana-Champaign",
-                    "years": "Fall 2015"
-                },
-                {
-                    "position": "CS 225 Data Structures Teaching Assistant",
-                    "name": "University of Illinois at Urbana-Champaign",
-                    "years": "Spring 2015 - Present"
-                },
-                {
-                    "position": "Web Developer",
-                    "name": "Miss Possible, Inc.",
-                    "years": "Spring 2014 - Present"
-                }
-            ]
+            "title": "Campus Journeys"
         },
         {
-            "name": "Contact Me",
-            "children": [
-                {
-                    "name": "Twitter",
-                    "value": "https://twitter.com/emilychaosays"
-                },
-                {
-                    "name": "Medium",
-                    "value": "https://medium.com/@emchao"
-                },
-                {
-                    "name": "LinkedIn",
-                    "value": "https://www.linkedin.com/in/elchao96"
-                },
-                {
-                    "name": "Github",
-                    "value": "https://github.com/elchao96"
-                }
-            ]
+            "title": "We the People"
+        },
+        {
+            "title": "Game of Debates"
+        },
+        {
+            "title": "Award Wizard"
+        },
+        {
+            "title": "LAPv2"
+        },
+        {
+            "title": "QueerSpeaks"
+        },
+        {
+            "title": "LAPv1"
+        },
+        {
+            "title": "TeamSidewalk"
+        },
+        {
+            "title": "WCS Website"
+        },
+        {
+            "title": "Outreach Workshops"
+        }
+    ],
+    "experience": [
+        {
+            "position": "IT Application Development Intern",
+            "company": "Paycor, Inc.",
+            "years": "Summer 2012"
+        },
+        {
+            "position": "GBS HRSS-ITDO Intern",
+            "company": "Procter & Gamble",
+            "years": "Summer 2013"
+        },
+        {
+            "position": "Software Engineering Intern",
+            "company": "kCura",
+            "years": "Summer 2014"
+        },
+        {
+            "position": "System Intern",
+            "company": "The Dow Chemical Company",
+            "years": "School Year 2014-2015"
+        },
+        {
+            "position": "Software Engineering Intern",
+            "company": "Intuit",
+            "years": "Summer 2015"
+        },
+        {
+            "position": "Engineering 100 Learning Assistant",
+            "company": "University of Illinois at Urbana-Champaign",
+            "years": "Fall 2015"
+        },
+        {
+            "position": "CS 225 Data Structures Teaching Assistant",
+            "company": "University of Illinois at Urbana-Champaign",
+            "years": "Spring 2015 - Present"
+        },
+        {
+            "position": "Web Developer",
+            "company": "Miss Possible, Inc.",
+            "years": "Spring 2014 - Present"
+        }
+    ],
+    "social": [
+        {
+            "platform": "Twitter",
+            "url": "https://twitter.com/emilychaosays",
+            "fa-icon": "twitter"
+        },
+        {
+            "platform": "Medium",
+            "url": "https://medium.com/@emchao",
+            "fa-icon": "medium"
+        },
+        {
+            "platform": "LinkedIn",
+            "url": "https://www.linkedin.com/in/elchao96",
+            "fa-icon": "linkedin"
+        },
+        {
+            "platform": "Github",
+            "url": "https://github.com/elchao96",
+            "fa-icon": "github"
         }
     ]
 }

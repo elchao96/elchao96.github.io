@@ -1,0 +1,14 @@
+.column img {
+  width: 100%; }
+
+.slick-arrow {
+  color: #512DA8 !important; }
+
+.slick-next:before, .slick-prev:before {
+  color: #512DA8; }
+
+.slick-next:after, .slick-prev:after {
+  color: #512DA8; }
+
+.project-title {
+  height: 300px; }
