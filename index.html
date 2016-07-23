@@ -7,47 +7,118 @@
     <meta http-equiv="content-type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+
+	<link rel="stylesheet" href="styles.css">
+
 	<title>Emily Chao | Software Engineer in Training</title>
-
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"/>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"/>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" type="text/css"/>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="styles.css"/>
-
 </head>
 <body>
-	<script type="text/x-mustache" id="social-media-template">
-		{{#social}}
-		<a href="{{url}}" target="_blank"><i class="fa fa-3x fa-{{fa-icon}}"></i></a>
-		{{/social}}
-	</script>
-	<script type="text/x-mustache" id="project-template">
-		{{#projects}}
+	<div class="container">
+		<div class="row"></div>
+		<div class="row"></div>
 		<div class="row">
-			<div class="twelve column project-title">
-				<h4 align="center">{{title}}</h4>
+			<div class="col s12">
+				<h1 class="center-align">Emily Chao</h1>
 			</div>
 		</div>
-		{{/projects}}
-	</script>
-	<div class="container">
 		<div class="row">
-			<div class="one-third column">
-				<h1>Emily Chao</h1>
-				<img id="profile" src="profile.jpg"></img>
-				<div id="social-media"></div>
+			<div class="col s12 m6 4">
+				<div class="center-align"><img src="profile.jpg"></img></div>
+				<div class="center-align">
+					<a href="https://github.com/elchao96" class="btn-floating btn-large waves-effect 	waves-light purple" target="_blank"><i class="fa fa-2x fa-github"></i></a>
+					<a href="https://twitter.com/emilychaosays" class="btn-floating btn-large waves-effect waves-light purple" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+					<a href="https://linkedin.com/in/elchao96" class="btn-floating btn-large waves-effect waves-light purple" target="_blank"><i class="fa fa-2x fa-linkedin"></i></a>
+					<a href="https://medium.com/@emchao" class="btn-floating btn-large waves-effect waves-light purple" target="_blank"><i class="fa fa-2x fa-medium"></i></a>
+				</div>
 			</div>
-			<div class="two-thirds column">
-				<div class="container">
-					<div class="projects"></div>
+			<div class="col s12 m6 8">
+				<p>CS major at UIUC, expected to graduate in Dec '16</p>
+				<p>Currently interning at Twitter on the Anti-Abuse team, working on systems to fight online harrassment</p>
+				<p>Committed to making social platforms safer and more trustworthy for human expression</p>
+				<p>Interested in software for social good, full-stack web development, data science, and technology policy and ethics</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s12">
+				<h1 class="center-align">Selected Projects</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s12 m4">
+				<div class="card purple">
+					<div class="card-content white-text">
+						<span class="card-title">#TravelSafe</span>
+						<p>A Chrome Extension showing how safe and LGBTQ-friendly a city is based on Airbnb listings.</p>
+					</div>
+					<div class="card-action">
+						<a href="https://github.com/elchao96/TravelSafe" target="_blank">Github</a>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 m4">
+				<div class="card purple">
+					<div class="card-content white-text">
+						<span class="card-title">QueerSpeaks</span>
+						<p>A prototype for a social network and article sharing site targeted towards AAPI LGBTQ young people.</p>
+					</div>
+					<div class="card-action">
+						<a href="https://github.com/elchao96/QueerSpeaks" target="_blank">Github</a>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 m4">
+				<div class="card purple">
+					<div class="card-content white-text">
+						<span class="card-title">LAP</span>
+						<p>A prototype for a social network and digital assistants for newly-released ex-convicts.</p>
+					</div>
+					<div class="card-action">
+						<a href="https://github.com/LinkedinHackday-Lap/LinkedinHackday-Lap" target="_blank">V1</a>
+						<a href="https://github.com/cs498rklap/final-project" target="_blank">V2</a>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 m4">
+				<div class="card purple">
+					<div class="card-content white-text">
+						<span class="card-title">Campus Journeys</span>
+						<p>An algorithmic social map mapping students' journeys across campus, for CS 467 Social Visualization</p>
+					</div>
+					<div class="card-action">
+						<a href="https://github.com/cs467-12-16/campus-journeys" target="_blank">Github</a>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 m4">
+				<div class="card purple">
+					<div class="card-content white-text">
+						<span class="card-title">Symphonic Stocks</span>
+						<p>Final project for CS 467 Social Visualization, placing audio over stock trends</p>
+					</div>
+					<div class="card-action">
+						<a href="https://github.com/cs467-cool-dog-group/symphonic-stocks" target="_blank">Github</a>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 m4">
+				<div class="card purple">
+					<div class="card-content white-text">
+						<span class="card-title">WCS @ Illinois</span>
+						<p>Creating tutorials and presentation for Tech Team, previously webmaster</p>
+					</div>
+					<div class="card-action">
+						<a href="https://github.com/IllinoisWCS" target="_blank">Github</a>
+						<a href="https://illinoiwcs.org" target="_blank">Website</a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 	<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-	<script src="scripts.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
 </body>
 </html>
