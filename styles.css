@@ -1,2 +1,11 @@
-img {
-  width: 250px; }
+.text-center {
+    text-align: center
+}
+
+.self {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding: 1%;
+}

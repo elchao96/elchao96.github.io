@@ -1,2 +1,6 @@
 # elchao96.github.io
-Personal Site
+
+```
+pipenv shell
+python -m generate_poem.py
+```
