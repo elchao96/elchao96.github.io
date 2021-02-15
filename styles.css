@@ -1,3 +1,11 @@
+html * {
+    font-family: Roboto Slab !important;
+}
+
+p {
+    font-size: 1.25em;
+}
+
 .text-center {
     text-align: center
 }
@@ -8,4 +16,13 @@
     margin-right: auto;
     width: 25%;
     padding: 1%;
+}
+
+.link {
+    color: #9730db;
+}
+
+.button-primary {
+    background-color: #9730db !important;
+    border-color: #9730db !important;
 }
