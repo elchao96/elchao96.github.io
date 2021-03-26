@@ -5,6 +5,22 @@ from typing import Optional
 import chevron
 import markdown
 
+MONTHS = {
+    "All": 0,
+    "January": 1,
+    "February": 2,
+    "March": 3,
+    "April": 4,
+    "May": 5,
+    "June": 6,
+    "July": 7,
+    "August": 8,
+    "September": 9,
+    "October": 10,
+    "November": 11,
+    "December": 12
+}
+
 
 class Poem(object):
     def __init__(self, file_path) -> None:
@@ -24,7 +40,15 @@ class Content(object):
         self.month = month
         with open(file_path, 'r', encoding='utf-8') as content_file:
             self.content = markdown.markdown(content_file.read(), extensions=['nl2br'])
-            
+
+class Voice(object):
+    def __init__(self, file_path) -> None:
+        file_name, _ = os.path.splitext(file_path)
+        _, rel_file = os.path.split(file_name)
+        self.file_name = rel_file
+        self.voice = self.file_name.replace("-", " ")
+        with open(file_path, 'r', encoding='utf-8') as content_file:
+            self.content = markdown.markdown(content_file.read(), extensions=['nl2br'])
 
 if __name__ == '__main__':
     poems = []
@@ -40,14 +64,24 @@ if __name__ == '__main__':
 
 
     roundups = []
-    for year in os.listdir('media/markdown'):
-        for month_file in os.listdir(f'media/markdown/{year}'):
-            file_path = os.path.join(f'media/markdown/{year}/{month_file}')
+    for year in os.listdir('media/markdown/roundup'):
+        for month_file in os.listdir(f'media/markdown/roundup/{year}'):
+            file_path = os.path.join(f'media/markdown/roundup/{year}/{month_file}')
             roundup = Content(file_path)
             roundups.append(roundup)
             os.makedirs(f'media/{roundup.year}', exist_ok=True)
             with open('media/content.mustache', 'r', encoding='utf-8') as roundup_template, open(f'media/{roundup.year}/{roundup.month}.html', 'w', encoding='utf-8') as html_file:
                 html_file.write(chevron.render(roundup_template, {'month': roundup.month, 'year': roundup.year, 'content': roundup.content}))
-    roundup_titles = [{'month': roundup.month, 'year': roundup.year, 'link': f'{roundup.year}/{roundup.month}.html'} for roundup in roundups]
+    
+    diverse_voices = []
+    for diverse_file in os.listdir('media/markdown/diverse'):
+        file_path = os.path.join(f'media/markdown/diverse/{diverse_file}')
+        diverse_voice = Voice(file_path)
+        diverse_voices.append(diverse_voice)
+        with open('media/voice.mustache', 'r', encoding='utf-8') as voice_template, open(f'media/{diverse_voice.file_name}.html', 'w', encoding='utf-8') as html_file:
+            html_file.write(chevron.render(voice_template, {'voice': diverse_voice.voice, 'content': diverse_voice.content}))
+    
+    roundup_titles = sorted([{'month': roundup.month, 'year': roundup.year, 'link': f'{roundup.year}/{roundup.month}.html'} for roundup in roundups], key=lambda item: (item['year'], MONTHS[item['month']]))
+    diverse_titles = sorted([{'type': diverse_voice.voice, 'link': f'{diverse_voice.file_name}.html'} for diverse_voice in diverse_voices], key=lambda item: item['type'])
     with open('media/list.mustache', 'r') as list_template, open('media/index.html', 'w') as index_html:
-        index_html.write(chevron.render(list_template, {'roundups': roundup_titles}))
+        index_html.write(chevron.render(list_template, {'roundups': roundup_titles, 'diverse': diverse_titles}))
